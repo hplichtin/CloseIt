@@ -1,0 +1,98 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle2x3",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 2,
+        "sizeY": 3,
+        "cells": "IIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle3x4",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 3,
+        "sizeY": 4,
+        "cells": "IIIIIIIIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle3x5",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 3,
+        "sizeY": 5,
+        "cells": "IIIIIIIIIIIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle4x5",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 4,
+        "sizeY": 5,
+        "cells": "IIIII IIIII IIIII IIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle4x6",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 4,
+        "sizeY": 6,
+        "cells": "IIIIII IIIIII IIIIII IIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle5x6",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 5,
+        "sizeY": 6,
+        "cells": "IIIIII IIIIII IIIIII IIIIII IIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle5x7",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 5,
+        "sizeY": 7,
+        "cells": "IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Rectangles",
+        "id": "Rectangle6x7",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 6,
+        "sizeY": 7,
+        "cells": "IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII",
+        "target": ""
+    }
+]

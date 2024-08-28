@@ -1,0 +1,26 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Tutorial",
+        "id": "Line4x1",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 6,
+        "sizeY": 3,
+        "cells": "OOO OIO OIO OIO OIO OOO",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Tutorial",
+        "id": "Frame6x6",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 6,
+        "sizeY": 6,
+        "cells": "IIIIII IOOOOI IOOOOI IOOOOI IOOOOI IIIIII",
+        "target": ""
+    }
+]

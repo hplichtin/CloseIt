@@ -1,0 +1,74 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsTutorial.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsSquares.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsRectangles.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsTriangles.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsABC.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsLegendary.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsCrosses.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "board",
+        "fileSource": "Bundle.main",
+        "fileName": "BoardsCloseIt.json"
+    },
+    {
+        "program": "CloseIt",
+        "type": "collection",
+        "version": "v01",
+        "collectionType": "challenge",
+        "fileSource": "Bundle.main",
+        "fileName": "challenge.json"
+    }
+]

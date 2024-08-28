@@ -1,0 +1,413 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Features",
+        "count": 16,
+        "programFeaturesText": [ "Info <NEW>; Tutorial <NEW>; Info/Challenges <NEW>; Info/Goals <NEW>; Info/Achievemets <NEW>; Challenges; Info/Acknowledgements; Info/Copyright; Boards; Scores; Users; Admin; Admin/Info; Admin/Program; Admin/System; Admin/Settings" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Features",
+        "count": 9,
+        "programFeaturesText": [ "Boards; Challenges; Scores; Users; Admin; Info; Program; System; Design" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "GameKit <NEW>",
+        "count": 1,
+        "programFeaturesText": [ "GameKit/Authenticate" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Localization <NEW>",
+        "count": 2,
+        "programFeaturesText": [ "Englisch", "German" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Levels <NEW>",
+        "count": 4,
+        "programFeaturesText": [ "Level 0-11", "Level Name", "Level Desctiption", "Challenges per Level" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Goals (Content) <NEW>",
+        "count": 7,
+        "programFeaturesText": [ "Number of Played Challenges", "Number of Completed Challenges", "All Challenges Completed at Level", "Number of Played Boards", "Number of Completed Boards", "Number of Completed Board Groups", "Number of Days Played" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Goals (Features><NEW>",
+        "count": 2,
+        "programFeaturesText": [ "Goal Achivement Celebratioon", "Goald Badges" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Achievements (Features)<NEW>",
+        "count": 24,
+        "programFeaturesText": [ "Number of Goals accomplished", "Level", "Number of Challenges Groups at Level completed", "Number of Challenges at Level completed", "Number of Challenges Games completed", "Number of Challenges Games played", "Time Challenges Games played", "Number of Challenges Restarts", "Number of Challenges Undos", "Number of Challenges Redos", "Number of Boards Groups", "Number of Boards completed", "Number of Boards Games completed", "Number of Boards Games played", "Time Boards Games played", "Number of Boards Restarts", "Number of Boards Undos", "Number of Boards Redos", "Total Number of Games completed", "Total Number of Games played", "Total Time Games played", "Total Number of Restarts", "Total Number of Boards Undos", "Total Number of Boards Redos" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Tutorial (Content)<NEW>",
+        "count": 11,
+        "programFeaturesText": [ "Welcome", "How to use Introductions", "Series of Cells", "More Series of Cells", "Multiple Series", "1. Challenge", "2. Challenge", "3. Challenge", "Open Results", "Shortened Form of Results", "HoW to use Challenges" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Tutorial (Features)<NEW>",
+        "count": 12,
+        "programFeaturesText": [ "Games Loop", "Games Demo", "Pictures", "Help Text", "Zoom In", "Zoom Out", "Shape Size", "Back to Start", "Previous Step", "Pause/Play", "Next Step", "Forward to End" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Tutorial (Content)<NEW>",
+        "count": 15,
+        "programFeaturesText": [ "Demo Game Board CloseIt", "Picture Toolbar Tutorial", "Demo Game Series of Cells", "Demo Game Nore Series of Cells", "Demo Game Nore Series", "Demo Game 1. Challenge", "Demo Game 2. Challenge", "Demo Game 3. Challenge", "Previous Step", "Picture How to use Challenges Score", "Picture How to use Challenges Board", "Picture How to use Challenges Pause", "Picture How to use Challenges Play", "Picture How to use Challenges Review Game", "Picture How to use Challenges Help" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Boards (Content)",
+        "count": 63,
+        "programFeaturesText": [ "Line4x1 <NEW>", "Frame6x6 <NEW>", "Square2x2", "Square3x3", "Square4x4", "Square5x5", "Square6x6", "Square7x7", "Square8x8", "Rectangle2x3", "Rectangle3x4", "Rectangle3x5", "Rectangle4x5", "Rectangle4x6", "Rectangle5x6", "Rectangle5x7", "Rectangle6x7", "Triangle7x4 <NEW>", "Triangle7x6 <NEW>", "Triangle7x8 <NEW>", "Triangle14x8 <NEW>", "Triangle15x14 <NEW>", "ABC-A <NEW>", "ABC-B <NEW>", "ABC-C <NEW>", "ABC-D <NEW>", "ABC-E <NEW>", "ABC-F <NEW>", "ABC-G <NEW>", "ABC-H <NEW>", "ABC-I <NEW>", "ABC-J <NEW>", "ABC-K <NEW>", "ABC-L <NEW>", "ABC-M <NEW>", "ABC-N <NEW>", "ABC-O <NEW>", "ABC-P <NEW>", "ABC-Q <NEW>", "ABC-R <NEW>", "ABC-S <NEW>", "ABC-T <NEW>", "ABC-U <NEW>", "ABC-V <NEW>", "ABC-W <NEW>", "ABC-X <NEW>", "ABC-Y <NEW>", "ABC-Z <NEW>", "Legendary1 <NEW>", "Legendary2 <NEW>", "Cross20 <NEW>", "Cross45 <NEW>", "Cross80 <NEW>", "Cross125 <NEW>", "Cross180 <NEW>", "CloseIt001", "CloseIt002", "CloseIt003", "CloseIt004", "CloseIt005", "CloseIt006", "CloseIt007", "CloseIt008" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Boards (Content)",
+        "count": 26,
+        "programFeaturesText": [ "Tutorial; Line 8x1; Line L; Square2x2; Square3x3; Square4x4; Square5x5; Square6x6; Square7x7; Square8x8; Rectangle2x3; Rectangle3x4; Rectangle3x5; Rectangle4x5; Rectangle4x6; Rectangle5x6; Rectangle5x7; Rectangle6x7; CloseIt001; CloseIt002; CloseIt003; CloseIt004; CloseIt005; CloseIt006; CloseIt007; CloseIt008" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Challenges (Content)",
+        "count": 145,
+        "programFeaturesText": [ "Line4x1|4x4x0x0", "Line4x1|4x3x1x0", "Line4x1|4x2x1x0 <NEW>", "Line4x1|4x2x2x0", "Line4x1|4x1x3x0 <NEW>", "Frame6x6|20x20x1x0 <NEW>", "Frame6x6|20x19x2x0 <NEW>", "Frame6x6|20x19x2x1 <NEW>", "Frame6x6|20x10x2x0 <NEW>", "Frame6x6|20x5x4x2 <NEW>", "Frame6x6|20x2x10x4 <NEW>", "Square2x2|4x4x*x* <NEW>", "Square3x3|9x9x*x* <NEW>", "Square4x4|16x16x*x* <NEW>", "Square5x5|25x25x*x* <NEW>", "Square6x6|36x36x*x* <NEW>", "Square7x7|49x49x*x* <NEW>", "Square8x8|64x64x*x* <NEW>", "Square2x2|4x4x1x0", "Square2x2|4x2x2x0 <NEW>", "Square2x2|4x2x3x1 <NEW>", "Square2x2|4x1x4x2 <NEW>", "Square3x3|9x9x4x0", "Square3x3|9x9x4x1", "Square3x3|9x9x4x2", "Square3x3|9x8x5x1 <NEW>", "Square3x3|9x8x5x2 <NEW>", "Square3x3|9x7x6x3 <NEW>", "Square3x3|9x7x6x2 <NEW>", "Square3x3|9x7x5x1 <NEW>", "Square3x3|9x7x5x2 <NEW>", "Square3x3|9x6x7x3 <NEW>", "Square3x3|9x6x7x2 <NEW>", "Square3x3|9x6x6x2 <NEW>", "Square3x3|9x6x6x1 <NEW>", "Square3x3|9x6x5x2 <NEW>", "Square3x3|9x6x5x1 <NEW>", "Square3x3|9x6x5x0 <NEW>", "Square3x3|9x5x6x2 <NEW>", "Square3x3|9x5x6x1 <NEW>", "Square3x3|9x5x5x1 <NEW>", "Square3x3|9x5x5x2 <NEW>", "Square3x3|9x4x7x2 <NEW>", "Square3x3|9x4x6x3 <NEW>", "Square3x3|9x4x6x2 <NEW>", "Square3x3|9x4x6x1 <NEW>", "Square3x3|9x3x10x4 <NEW>", "Square3x3|9x3x9x3 <NEW>", "Square3x3|9x3x8x3 <NEW>", "Square3x3|9x3x8x2 <NEW>", "Square3x3|9x3x7x3 <NEW>", "Square3x3|9x3x7x2 <NEW>", "Square3x3|9x3x7x1 <NEW>", "Square3x3|9x3x6x2 <NEW>", "Square3x3|9x3x6x0 <NEW>", "Square3x3|9x2x11x5 <NEW>", "Square3x3|9x2x10x5 <NEW>", "Square3x3|9x2x10x4 <NEW>", "Square3x3|9x2x9x3 <NEW>", "Square3x3|9x2x8x3 <NEW>", "Square3x3|9x1x12x6 <NEW>", "Square4x4|16x16x9x0", "Square4x4|16x16x9x1", "Square4x4|16x16x9x2", "Square4x4|16x16x9x3", "Square4x4|16x16x9x4", "Square4x4|16x4x12x0 <NEW>", "Square4x4|16x2x16x4 <NEW>", "Square8x8|64x64x49x0", "Square8x8|64x64x49x24 <NEW>", "Square8x8|64x8x56x0 <NEW>", "Rectangle2x3|6x6x2x1 <NEW>", "Rectangle3x4|12x12x6x3 <NEW>", "Rectangle3x5|15x15x8x3 <NEW>", "Rectangle4x5|20x20x12x6 <NEW>", "Rectangle4x6|24x24x15x7 <NEW>", "Rectangle5x6|30x30x20x10 <NEW>", "Rectangle5x7|35x35x24x12 <NEW>", "Rectangle6x7|42x42x30x15 <NEW>", "Triangle7x4|16x13x9x4 <NEW>", "Triangle7x4|16x13x9x2 <NEW>", "Triangle7x6|26x25x15x7 <NEW>", "Triangle7x6|26x25x15x4 <NEW>", "Triangle7x8|32x32x18x9 <NEW>", "Triangle7x8|32x32x18x5 <NEW>", "Triangle14x8|64x64x43x21 <NEW>", "Triangle14x8|64x64x43x7 <NEW>", "Triangle15x14|100x99x*x* <NEW>", "Triangle15x14|100x99x75x29 <NEW>", "ABC-A|38x38x*x* <NEW>", "ABC-A|38x38x19x9 <NEW>", "ABC-A|38x19x*x* <NEW>", "ABC-A|38x19x20x4 <NEW>", "ABC-B|42x42x*x* <NEW>", "ABC-B|42x42x23x11 <NEW>", "ABC-B|42x21x*x* <NEW>", "ABC-B|42x21x24x8 <NEW>", "ABC-C|32x32x*x* <NEW>", "ABC-C|32x32x15x7 <NEW>", "ABC-C|32x8x*x* <NEW>", "ABC-C|32x8x18x8 <NEW>", "ABC-D|38x38x*x* <NEW>", "ABC-D|38x38x19x9 <NEW>", "ABC-D|38x19x*x* <NEW>", "ABC-D|38x19x20x8 <NEW>", "ABC-E|36x36x*x* <NEW>", "ABC-E|36x36x17x8 <NEW>", "ABC-E|36x9x*x* <NEW>", "ABC-E|36x9x20x10 <NEW>", "ABC-F|28x28x*x* <NEW>", "ABC-F|28x28x13x6 <NEW>", "ABC-F|28x4x*x* <NEW>", "ABC-F|28x4x19x9 <NEW>", "ABC-G|39x39x*x* <NEW>", "ABC-G|39x39x18x9 <NEW>", "ABC-G|39x13x*x* <NEW>", "ABC-G|39x13x20x10 <NEW>", "ABC-H|36x36x*x* <NEW>", "ABC-H|36x36x17x8 <NEW>", "ABC-H|36x6x*x* <NEW>", "ABC-H|36x6x22x11 <NEW>", "ABC-I|16x16x*x* <NEW>", "ABC-I|16x16x7x0 <NEW>", "ABC-I|16x8x*x* <NEW>", "ABC-I|16x8x8x0 <NEW>", "ABC-J|28x28x*x* <NEW>", "ABC-J|28x28x13x6 <NEW>", "ABC-J|28x8x*x* <NEW>", "ABC-J|28x8x16x8 <NEW>", "ABC-K|30x30x*x* <NEW>", "ABC-K|30x30x9x3 <NEW>", "ABC-K|30x10x*x* <NEW>", "ABC-K|30x10x11x5 <NEW>", "ABC-L|24x24x*x* <NEW>", "ABC-L|24x24x11x5 <NEW>", "ABC-L|24x12x*x* <NEW>", "ABC-L|24x12x12x6 <NEW>", "CloseIt001|45x45x28x12 <NEW>", "Legendary1|64x64x*x* <NEW>", "Legendary2|70x70x*x* <NEW>", "Cross20|20x20x*x* <NEW>", "Cross45|45x43x*x* <NEW>", "Cross80|80x80x*x* <NEW>", "Cross125|125x123x*x* <NEW>", "Cross180|180x180x*x* <NEW>"],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Challenges (Content)",
+        "count": 37,
+        "programFeaturesText": [ "Line4x1|4x4x0x0, Line4x1|4x3x1x0, Line4x1|4x2x2x0; Tutorial|16x16x0x0; Tutorial|16x16x1x0; Tutorial|16x16x2x0; Tutorial|16x16x2x1; Tutorial|16x16x4x2; Square2x2|4x4x1x0; Square2x2|4x4x2x0; Square3x3|9x9x4x0; Square3x3|9x9x4x1; Square3x3|9x9x4x2; Square3x3|9x9x5x0; Square3x3|9x9x5x1; Square3x3|9x9x5x2; Square3x3|9x9x6x0; Square3x3|9x9x6x2; Square3x3|9x9x6x3; Square3x3|9x9x7x2; Square3x3|9x9x7x3; Square4x4|16x16x9x0; Square4x4|16x16x9x1; Square4x4|16x16x9x2; Square4x4|16x16x9x3; Square4x4|16x16x9x4; Square4x4|16x16x12x0; Square4x4|16x16x16x44; Square8x8|64x64x49x0; Square8x8|64x64x49x2; Square8x8|64x64x56x0; Square8x8|64x64x60x2; Square8x8|64x64x80x24; CloseIt001|45x45x28x2; CloseIt001|45x45x28x14; CloseIt001|45x45x36x0; CloseIt001|45x45x38x17; CloseIt001|45x45x45x9; CloseIt001|45x45x48x12" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Designs (Content)",
+        "count": 3,
+        "programFeaturesText": [ "default", "default2", "default.phone" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Designs (Content)",
+        "count": 2,
+        "programFeaturesText": [ "default; default.phone" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Boards (List)",
+        "count": 6,
+        "programFeaturesText": [ "Board Groups; Board Group Complete; Board Complete; Board Complete Count; Number of Boards completed <NEW>; Number of Boards <NEW>" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Boards (List)",
+        "count": 4,
+        "programFeaturesText": [ "Board Groups; Board Group Complete; Board Complete; Board Complete Count" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Challenges (List)",
+        "count": 6,
+        "programFeaturesText": [ "Challenges Groups at Level; Challenges Group Complete; Challenge Complete; Challenge Complete Count; Number of Challenges completed <NEW>; Number of Challenges <NEW> " ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Challenges (List)",
+        "count": 3,
+        "programFeaturesText": [ "Challenges Groups; Challenges Group Complete; Challenge Complete" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Game",
+        "count": 19,
+        "programFeaturesText": [ "Score", "Score Detail", "Undo", "Redo", "Zoom In", "Zoom Out", "Shape Size <NEW>", "Restart", "Pause/Play <NEW>", "Game Review <NEW>", "Help <NEW>", "Buttons disabled <NEW>", "Cell Select <NEW>", "Line Select <NEW>", "Line Unselect <NEW>", "Smart Line Select <NEW>", "Smart Line Close <NEW>", "Games Review <New>", "Help <NEW>" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Game",
+        "count": 9,
+        "programFeaturesText": [ "Score; Score Detail; Undo; Redo; Zoom In; Zoom Out; Restart; Cell Select; Line Select" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Score Detail",
+        "count": 22,
+        "programFeaturesText": [ "User Current", "User Name", "Score current", "Score Target <NEW>", "Score Challenge", "Number of Cells selected", "Number of Cells", "Number of Cells in max Series", "Number of Cells in current Series", "Number of Lines sum", "Number of Lines X", "Number of Lines Y", "Number of Lines min", "Number of Restarts <NEW>", "Number of Undos <NEW>", "Number of Redos <NEW>", "Start Time <NEW>", "End Time <NEW>", "Complete", "New Score", "Rank", "Time played <NEW>" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Score Detail",
+        "count": 12,
+        "programFeaturesText": [ "User Current", "User Name", "Score current", "Score Challenge", "Number of Cells selected", "Number of Cells", "Number of Cells in max Series", "Number of Cells in current Series", "Number of Lines sum", "Number of Lines X", "Number of Lines Y", "Number of Lines min" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Score List",
+        "count": 4,
+        "programFeaturesText": [ "Detail; User Current; User Alias; Score" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Game (Board)",
+        "count": 3,
+        "programFeaturesText": [ "Board Compolete; New Score; Rank" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Game (Challenge)",
+        "count": 1,
+        "programFeaturesText": [ "Challenge Complete" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Scores (List)",
+        "count": 5,
+        "programFeaturesText": [ "Board Name; Score; User Score; View Challenges (Toggle); View All Users (Toggle)" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Score (Detail)",
+        "count": 18,
+        "programFeaturesText": [ "Board Name; Rank; User Current; User Name; Score; Cells Selected; Cells Number; Streak; Lines X; Lines Y; Lines Sum; Lines min; Timestamp; Ids; Bosrd Id; User Id; Game Id; Score Id" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Users (List)",
+        "count": 2,
+        "programFeaturesText": [ "User Name; User Add" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "User (Detail)",
+        "count": 12,
+        "programFeaturesText": [ "User Source <NEW>", "User Id", "User Alias <NEW>", "User Name", "Current User", "Current User toggle", "Auto Close", "Auto Close toggle", "Sleep Seconds <NEW>", "Sleep Seconds toggle <NEW>", "Save", "Delete" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "User (Detail)",
+        "count": 8,
+        "programFeaturesText": [ "User Id; User Name; Current User; Current User toggele; Auto Close; Auto Close toggle; Save; Delete" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Info",
+        "count": 24,
+        "programFeaturesText": [ "Program", "Version No", "Version Id", "Version Date", "Designer", "reset", "admin",
+            "debug <NEW>", "Config", "Features", "Control <NEW>", "Designs", "Nivaus <NEW>", "Player <NEW>", "Users", "Demos <NEW>", "Demo Games <NEW>", "Boards", "Challenges", "Target Achievements <NEW>", "User Achievements <NEW>", "Games (done)", "Scores", "Incidents <NEW>" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Info",
+        "count": 13,
+        "programFeaturesText": [ "Program; Version No; Version Date; Designer; reset; admin; Features; Designs; Users; Boards; Challenges; Games; Scores" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Program",
+        "count": 6,
+        "programFeaturesText": [ "Program; Version No; Version Date; Designer; Features Current; Features All Versions" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "System",
+        "count": 10,
+        "programFeaturesText": [ "Reset Application", "Delete all stored files!", "Level <NEW>", "Level select <NEW>", "Admin <NEW>", "Admin toggle <NEW>", "Debug <New>", "Debug toggle <New>", "Apply <MEW>", "Save <NEW>" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "System",
+        "count": 2,
+        "programFeaturesText": [ "Reset Application; Delete all stored files!" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Settings <NEW>",
+        "count": 4,
+        "programFeaturesText": [ "Design Name", "Designs", "Designs List", "Save" ],
+        "current": true
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.1",
+        "programFeature": "Design",
+        "count": 2,
+        "programFeaturesText": [ "Design Name; Default Board" ],
+        "current": false
+    },
+    {
+        "program": "CloseIt",
+        "type": "feature",
+        "version": "v1",
+        "programVersion": "v0.2",
+        "programFeature": "Config",
+        "count": 1,
+        "programFeaturesText": [ "Admin User Ids" ],
+        "current": true
+    }
+]

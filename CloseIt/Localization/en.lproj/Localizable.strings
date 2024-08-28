@@ -1,0 +1,266 @@
+/* 
+  Localizable.strings
+  CloseIt
+
+  Created by Hans-Peter Lichtin on 10.07.2024.
+  
+*/
+
+"accomplished" = "accomplished";
+"Achievements" = "Achievements";
+"Acknowledgements" = "Acknowledgements";
+"Admin" = "Admin";
+"available" = "available";
+"Boards" = "Boards";
+"Boards Games" = "Board Games";
+"Boards Groups" = "Board Groups";
+"Boards Redos" = "Redos";
+"Boards Restarts" = "Restarts";
+"Boards Undos" = "Undos";
+"Cells" = "Cells";
+"Challenges" = "Challenges";
+"Challenges Games" = "Challenge Games";
+"Challenges Groups" = "Challenge Groups";
+"Challenges Redos" = "Redos";
+"Challenges Restarts" = "Restarts";
+"Challenges Undos" = "Undos";
+"completed" = "completed";
+"Congratulations!" = "Congratulations!";
+"Copyright" = "Copyright";
+"current" = "current";
+"Description" = "Description";
+"Games" = "Games";
+"Goal Achieved" = "Goal Achieved";
+"Goals" = "Goals";
+"has not yet been achieved" = "has not yet been achieved";
+"not yet been disclosed" = "not yet been disclosed";
+"Info" = "Info";
+"Introduction" = "Tutorial";
+"Legendary" = "Legendary";
+"Level" = "Level";
+"Levels" = "Levels";
+"Lines" = "Lines";
+"max" = "max";
+"min" = "min";
+"New available" = "New available";
+"New Score" = "New Score";
+"No" = "No";
+"not unlocked" = "not completed";
+"of" = "of";
+"played" = "played";
+"Played" = "Played";
+"Please contact" = "Please contact";
+"Rank" = "Rank";
+"Rectangles" = "Rectangles";
+"Redos" = "Redos";
+"Restarts" = "Restarts";
+"Score" = "Score";
+"Square 2x2" = "Square 2x2";
+"Square 3x3" = "Square 3x3";
+"Square 4x4" = "Square 4x4";
+"Square 8x8" = "Square 8x8";
+"Squares" = "Squares";
+"Start" = "Start";
+"Streak" = "Series";
+"sum" = "sum";
+"Time" = "Time";
+"to get a new version of your CloseIt App!" = "to get an extended version of your CloseIt App!";
+"Total Redos" = "Redos";
+"Total Restarts" = "Restarts";
+"Total Undos" = "Undos";
+"Tutorial" = "Tutorial";
+"Undos" = "Undos";
+"Users" = "User";
+"Welcome" = "WELCOME";
+"You achieved Goal" = "You achieved Goal";
+"You achieved new Level" = "You achieved new Level";
+"You completed all levels!" = "You completed all levels!";
+
+"[HELP|board|Line4x1]" = "1. Select the cell on the far left or far right to solve the board.\n2. Alternatively, choose a line.\n3. Restart to try again.";
+"[HELP|board|Line4x1|4x4x0x0]" = "The challenge is to select all C 4 cells with a series of S 4 cells without choosing a line beforehand L 0 XY 0.\n\n1. Choose the cell on the far left or far right to solve the challenge.\n2. Restart to try again.";
+"[HELP|board|Line4x1|4x3x1x0]" = "The challenge is to select C 1 line so that a series of S 3 cells (x3) can be chosen afterward.\n\n1. Choose a vertical (Y) line on the far left or right.\n2. Select the cell next to the line to solve the challenge.\n3. Restart to try again.";
+
+"[KEY|boardName|DEMO.CloseIt.LOOP]" = "Welcome";
+"[HELP|board|DEMO.CloseIt.LOOP]" = "Thank you for playing CloseIt. Learn how to play CloseIt by going through the tutorial.\n\n[Select \"How to use Introductions?\" on the left side.]";
+
+"[KEY|demoName|UI.Introduction]" = "How to use Introductions";
+"[HELP|demo|UI.Introduction]" = "The tutorial is divided into several sections that you can select on the left side. In the top right corner, you’ll find various controls: (1) Zoom in or (2) out. (3) Shape size to fit window. (4) Restart the current introduction. (5) Jump back to the previous introduction. (6) Continue to the next introduction. (7) Move forward to the last introduction.\n\n[Feel free to explore the next section, \“Series of Cells\” on the left side.]";
+
+"[KEY|boardName|DEMO.Square5x5.1]" = "Series of Cells";
+"[HELP|board|DEMO.Square5x5.1|0]" = "The goal of CloseIt is to create a long series of cells on a board by selecting lines.\n\The board displayed below forms a square with 5x5 = 25 cells.";
+"[HELP|board|DEMO.Square5x5.1|1]" = "You can, for example, select the horizontal (X) lines to create a series of 25 cells.
+\n\nThe series begins and ends with a cell surrounded by 3 lines. These are called the Start Cell and End Cell.";
+"[HELP|board|DEMO.Square5x5.1|2]" = "The currently selected cell in the top-left corner is the Start Cell.";
+"[HELP|board|DEMO.Square5x5.1|3]" = "The currently selected cell in the bottom-right corner is the End Cell.";
+"[HELP|board|DEMO.Square5x5.1|4]" = "The cells between the Start Cell and the End Cell form the series. The series is automatically closed when the Start Cell is selected.";
+"[HELP|board|DEMO.Square5x5.1|5]" = "A cell is part of the series if it’s the Start Cell or the End Cell. Alternatively, a cell is part of the series if it’s surrounded by 2 lines and adjacent to two other cells in the series.\n\n[Feel free to explore the next section, \“More Series of Cells\” on the left side.]";
+
+"[KEY|boardName|DEMO.Square5x5.2]" = "More Series of Cells";
+"[HELP|board|DEMO.Square5x5.2|0]" = "On a board, you can form various series of cells. In this example, both horizontal (X) and vertical (Y) lines are selected.";
+"[HELP|board|DEMO.Square5x5.2|1]" = "There are currently 6 horizontal (X) lines and 10 vertical (Y) lines chosen.";
+"[HELP|board|DEMO.Square5x5.2|2]" = "The currently selected cell in the top-left corner serves as the Start Cell.";
+"[HELP|board|DEMO.Square5x5.2|3]" = "The currently selected cell in the bottom-middle position is the End Cell.";
+"[HELP|board|DEMO.Square5x5.2|4]" = "The series will automatically close when the Start Cell is selected.";
+"[HELP|board|DEMO.Square5x5.2|5]" = "[Feel free to explore the next section, \“Multiple Series\” on the left side.]";
+
+"[KEY|boardName|DEMO.Square4x4.1]" = "Multiple Series";
+"[HELP|board|DEMO.Square4x4.1|0]" = "On a board, you can select lines in a way that creates multiple series of cells.";
+"[HELP|board|DEMO.Square4x4.1|1]" = "In this example, both 8 horizontal (X) and 3 vertical (Y) lines are chosen.";
+"[HELP|board|DEMO.Square4x4.1|2]" = "The board now has 3 series of cells.";
+"[HELP|board|DEMO.Square4x4.1|3]" = "At the top, there’s a series of 4 cells. This series will automatically close when the Start Cell is selected.";
+"[HELP|board|DEMO.Square4x4.1|4]" = "In the middle, there’s a series of 8 cells. Again, this series will close after selecting the Start Cell.";
+"[HELP|board|DEMO.Square4x4.1|5]" = "At the bottom, there’s another series of 4 cells, which will also close upon selecting the Start Cell.\n\n[Feel free to explore the next section, \“1. Challenge\” on the left side.]";
+
+"[KEY|boardName|DEMO.Square5x5.3]" = "1. Challenge";
+"[HELP|board|DEMO.Square5x5.3|0]" = "In CloseIt, you must overcome challenges. A challenge involves selecting the horizontal (X) and vertical (Y) lines on a board to meet a predefined result. An example of a result is: \"C 25 | S 25 | L 16 | XY 0\”.";
+"[HELP|board|DEMO.Square5x5.3|1]" = "The result \"C 25 | S 25 | L 16 | XY 0\” defines the following: From the total 25 cells (C) on the board, all 25 must be selected in a series (S). To achieve this, you need to choose 16 lines (L), but only in the horizontal direction (no 0 in the other direction (XY)).";
+"[HELP|board|DEMO.Square5x5.3|2]" = "[Feel free to explore the next section, \“2. Challenge\” on the left side.]";
+
+"[KEY|boardName|DEMO.Square5x5.4]" = "2. Challenge";
+"[HELP|board|DEMO.Square5x5.4|0]" = "The result is: \"C 25 | S 25 | L 16 | XY 6\”.";
+"[HELP|board|DEMO.Square5x5.4|1]" = "The result \"C 25 | S 25 | L 16 | XY 6\”. means that out of the total 25 cells (C) on the board, all 25 must be selected in a series (S). To achieve this, a total of 16 lines (L) need to be chosen, with 6 of them being either horizontal (X) or vertical (Y) lines.";
+"[HELP|board|DEMO.Square5x5.4|2]" = "[Feel free to explore the next section, \“3. Challenge\” on the left side.]";
+
+"[KEY|boardName|DEMO.Square4x4.2]" = "3. Challenge";
+"[HELP|board|DEMO.Square4x4.2|0]" = "The result is: \"C 16 | R 8 | L 11 | XY 3\”.";
+"[HELP|board|DEMO.Square4x4.2|1]" = "The result \"C 16 | R 8 | L 11 | XY 3\” means that the board has a total of 16 cells (C). The longest series (S) should have a length of 8. To achieve this, you need to select 11 lines (L), with 3 of them being either horizontal (X) or vertical (Y) lines.";
+"[HELP|board|DEMO.Square4x4.2|2]" = "[Feel free to explore the next section, \“Open Results\” on the left side.]";
+
+"[KEY|demoName|Challenges.Open]" = "Open Results";
+"[HELP|demo|Challenges.Open]" = "Open results are an interesting variation in CloseIt. An open result is denoted with an asterisk (*). For example, the result “C 25 | S 25 | L * | XY *” defines that the number of lines can be arbitrary to meet the challenge. This means you have flexibility and can find various solutions as long as the other conditions are met.\n\n[Feel free to explore the next section, \“Shortened Form of Results\” on the left side.]";
+
+"[KEY|demoName|Challenges.Short]" = "Shortened Form of Results";
+"[HELP|demo|Challenges.Short]" = "Here are the shortened forms for the challenge results:\n\n1. The shortened form of \“C 25 | S 25 | L 16 | XY 0\” is \“25x25x16x0\”.\n2. The shortened form of \“C 25 | S 25 | L 16 | XY 6\” is \“25x25x16x6\”.\n3. The shortened form of \“C 16 | R 8 | L 11 | XY 3\” is \“16x8x11x3\”.\n4. The shortened form of \“C 25 | S 25 | L * | XY *\" is \"25x25x*x*\”.\n\n[Feel free to explore the next section, \“How to use Challenges\” on the left side.]";
+
+"[KEY|demoName|UI.Challenges]" = "How to use Challenges";
+"[HELP|demo|UI.Challenges|0]" = "At the bottom of the window, you can choose the Challenges. On the left side, all challenges unlocked for the current level are displayed in grouped order. Select a challenge.\n\At the top, your (1) username is shown. Next to it, you’ll find the (2) current result and (3) the expected result.";
+"[HELP|demo|UI.Challenges|1]" = "Below, the board appears, and you can now select lines and cells.\n\nLines are selceted with a single click. Linies between the two previously seleceted lines can be automatically selected.\n\nCell will be selected with a double click";
+"[HELP|demo|UI.Challenges|2]" = "Controls in the Top Left Corner. You can (1) undo the previous selection or (2) repeat it. (3) Zoom out or (4) zoom in. (5) Shape the board to the size of the window. (6) Restart the game.";
+"[HELP|demo|UI.Challenges|3]" = "If the game automatically selects a series of cells, you can (7) stop it.";
+"[HELP|demo|UI.Challenges|4]" = "After stopping, you can (7) resume the automatic selection.";
+"[HELP|demo|UI.Challenges|5]" = "You can (8) review the previous games or the current game.";
+"[HELP|demo|UI.Challenges|6]" = "Some challenges offer additional help (9).";
+
+"[KEY|achievementTypeName|numChallengesPlayed]" = "Number of Played Challenges";
+"[KEY|achievementTypeName|numChallengesCompleted]" = "Number of Completed Challenges";
+"[KEY|achievementTypeName|allChallengesAtLevelCompleted]" = "All Challenges Completed at Level";
+"[KEY|achievementTypeName|numBoardsPlayed]" = "Number of Played Boards";
+"[KEY|achievementTypeName|numBoardsCompleted]" = "Number of Completed Boards";
+"[KEY|achievementTypeName|numBoardGroupsCompleted]" = "Number of Completed Board Groups";
+"[KEY|achievementTypeName|numDaysPlayed]" = "Number of Days since first Challenge played";
+
+"[KEY|boardName|ABC-A]" = "A";
+"[KEY|boardName|ABC-B]" = "B";
+"[KEY|boardName|ABC-C]" = "C";
+"[KEY|boardName|ABC-D]" = "D";
+"[KEY|boardName|ABC-E]" = "E";
+"[KEY|boardName|ABC-F]" = "F";
+"[KEY|boardName|ABC-G]" = "G";
+"[KEY|boardName|ABC-H]" = "H";
+"[KEY|boardName|ABC-I]" = "I";
+"[KEY|boardName|ABC-J]" = "J";
+"[KEY|boardName|ABC-K]" = "K";
+"[KEY|boardName|ABC-L]" = "L";
+"[KEY|boardName|ABC-M]" = "M";
+"[KEY|boardName|ABC-N]" = "N";
+"[KEY|boardName|ABC-O]" = "O";
+"[KEY|boardName|ABC-P]" = "P";
+"[KEY|boardName|ABC-Q]" = "Q";
+"[KEY|boardName|ABC-R]" = "R";
+"[KEY|boardName|ABC-S]" = "S";
+"[KEY|boardName|ABC-T]" = "T";
+"[KEY|boardName|ABC-U]" = "U";
+"[KEY|boardName|ABC-V]" = "V";
+"[KEY|boardName|ABC-W]" = "W";
+"[KEY|boardName|ABC-X]" = "X";
+"[KEY|boardName|ABC-Y]" = "Y";
+"[KEY|boardName|ABC-Z]" = "Z";
+"[KEY|boardName|CloseIt001]" = "CloseIt: C";
+"[KEY|boardName|CloseIt002]" = "CloseIt: l";
+"[KEY|boardName|CloseIt003]" = "CloseIt: o";
+"[KEY|boardName|CloseIt004]" = "CloseIt: s";
+"[KEY|boardName|CloseIt005]" = "CloseIt: e";
+"[KEY|boardName|CloseIt006]" = "CloseIt: I";
+"[KEY|boardName|CloseIt007]" = "CloseIt: T";
+"[KEY|boardName|CloseIt008]" = "CloseIt";
+"[KEY|boardName|Cross20]" = "Cross 5x 2x2";
+"[KEY|boardName|Cross45]" = "Cross 5x 3x3";
+"[KEY|boardName|Cross80]" = "Cross 5x 4x4";
+"[KEY|boardName|Cross125]" = "Cross 5x 5x5";
+"[KEY|boardName|Cross180]" = "Cross 5x 6x6";
+"[KEY|boardName|DEMO.Square5x5]" = "Introduction";
+"[KEY|boardName|Frame6x6]" = "Frame 6x6";
+"[KEY|boardName|Legendary1]" = "Legendary 1";
+"[KEY|boardName|Legendary2]" = "Legendary 2";
+"[KEY|boardName|Line4x1]" = "Line 4x1";
+"[KEY|boardName|Rectangle2x3]" = "Rectangle 2x3";
+"[KEY|boardName|Rectangle3x4]" = "Rectangle 3x4";
+"[KEY|boardName|Rectangle3x5]" = "Rectangle 3x5";
+"[KEY|boardName|Rectangle4x5]" = "Rectangle 4x5";
+"[KEY|boardName|Rectangle4x6]" = "Rectangle 4x6";
+"[KEY|boardName|Rectangle5x6]" = "Rectangle 5x6";
+"[KEY|boardName|Rectangle5x7]" = "Rectangle 5x7";
+"[KEY|boardName|Rectangle6x7]" = "Rectangle 6x7";
+"[KEY|boardName|Square2x2]" = "Square 2x2";
+"[KEY|boardName|Square3x3]" = "Square 3x3";
+"[KEY|boardName|Square4x4]" = "Square 4x4";
+"[KEY|boardName|Square5x5]" = "Square 5x5";
+"[KEY|boardName|Square6x6]" = "Square 6x6";
+"[KEY|boardName|Square7x7]" = "Square 7x7";
+"[KEY|boardName|Square8x8]" = "Square 8x8";
+"[KEY|boardName|Triangle7x4]" = "Triangle 7x4";
+"[KEY|boardName|Triangle7x6]" = "Triangle 7x6";
+"[KEY|boardName|Triangle7x8]" = "Triangle 7x8";
+"[KEY|boardName|Triangle14x8]" = "Triangle 14x8";
+"[KEY|boardName|Triangle15x14]" = "Triangle 15x14";
+
+"[KEY|groupName|ABC]" = "ABC";
+"[KEY|groupName|CloseIt]" = "CloseIt";
+"[KEY|groupName|Crosses]" = "Crosses";
+"[KEY|groupName|Legendary]" = "Legendary";
+"[KEY|groupName|Rectangles]" = "Rectangles";
+"[KEY|groupName|Square 2x2]" = "Square 2x2";
+"[KEY|groupName|Square 3x3]" = "Square 3x3";
+"[KEY|groupName|Square 4x4]" = "Square 4x4";
+"[KEY|groupName|Square 8x8]" = "Square 8x8";
+"[KEY|groupName|Squares]" = "Squares";
+"[KEY|groupName|Triangles]" = "Triangles";
+"[KEY|groupName|Tutorial]" = "Tutorial";
+
+"[KEY|level.levelName|0]" = "Starter";
+"[KEY|level.levelName|1]" = "Novice";
+"[KEY|level.levelName|2]" = "Apprentice";
+"[KEY|level.levelName|3]" = "Rookie";
+"[KEY|level.levelName|4]" = "Journeyman";
+"[KEY|level.levelName|5]" = "Adept";
+"[KEY|level.levelName|6]" = "Champion";
+"[KEY|level.levelName|7]" = "Expert";
+"[KEY|level.levelName|8]" = "Master";
+"[KEY|level.levelName|9]" = "Grandmaster";
+"[KEY|level.levelName|10]" = "Legendary";
+"[KEY|level.levelName|11]" = "Ascendant";
+
+"[KEY|level.levelDescription|0]" = "New in the world of CloseIt.";
+"[KEY|level.levelDescription|1]" = "For beginners or those just starting out.";
+"[KEY|level.levelDescription|2]" = "A step above Novice, indicating some training.";
+"[KEY|level.levelDescription|3]" = "For beginners who are just starting out.";
+"[KEY|level.levelDescription|4]" = "Skilled and experienced, but not yet a master.";
+"[KEY|level.levelDescription|5]" = "Skilled and capable, but not yet an expert.";
+"[KEY|level.levelDescription|6]" = "A step above adept, indicating significant proficiency.";
+"[KEY|level.levelDescription|7]" = "Proficient and knowledgeable.";
+"[KEY|level.levelDescription|8]" = "The highest level of skill and mastery.";
+"[KEY|level.levelDescription|9]" = "Reserved for the most skilled players.";
+"[KEY|level.levelDescription|10]" = "Reserved for the absolute best.";
+"[KEY|level.levelDescription|11]" = "A mystical or otherworldly level of mastery.";
+
+"[KEY|scoreId|numSelectedCells]" = "C";
+"[KEY|scoreId|maxStreakCount]" = "S";
+"[KEY|scoreId|numSelectedLines]" = "L";
+"[KEY|scoreId|minNumSelectedLinesXY]" = "XY";
+
+"[TEXT|Acknowledgements|0]" = "A heartfelt thank you to everyone who provided valuable feedback.";
+"[TEXT|Acknowledgements|1]" = "I would especially like to thank my lovely wive, Violeta, my son Gregory, my daughter Nastassia, my sister-in-law, Felicitas, the son of the cosuin of my wife, Elio, my doctor Daniel, as well as my friends Elisabeth and Urs, who reviewed an early version of the game. Their positive feedback and support greatly motivated and inspired me. Thank you, all!";
+
+"[TEXT|Copyright|0]" = "© 2024 aare software, Hans-Peter Lichtin. All rights reserved.";
+"[TEXT|Copyright|1]" = "This game and its content are the property of aare software, Hans-Peter Lichtin, and are protected by international copyright laws. Unauthorized reproduction, distribution, or modification of this game or any part of it is strictly prohibited and may result in legal action.";
+"[TEXT|Copyright|2]" = "For inquiries, please contact: Hans-Peter Lichtin, hans-peter.lichtin@outlook.com.";

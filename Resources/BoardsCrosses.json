@@ -1,0 +1,62 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Crosses",
+        "id": "Cross20",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 8,
+        "sizeY": 8,
+        "cells": "OOOOOOOO OOOIIOOO OOOIIOOO OIIIIIIO OIIIIIIO OOOIIOOO OOOIIOOO OOOOOOOO",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Crosses",
+        "id": "Cross45",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 11,
+        "sizeY": 11,
+        "cells": "OOOOOOOOOOO OOOOIIIOOOO OOOOIIIOOOO OOOOIIIOOOO OIIIIIIIIIO OIIIIIIIIIO OIIIIIIIIIO OOOOIIIOOOO OOOOIIIOOOO OOOOIIIOOOO OOOOOOOOOOO",
+        "target": "*x43x*x*"
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Crosses",
+        "id": "Cross80",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 14,
+        "sizeY": 14,
+        "cells": "OOOOOOOOOOOOOO OOOOOIIIIOOOOO OOOOOIIIIOOOOO OOOOOIIIIOOOOO OOOOOIIIIOOOOO OIIIIIIIIIIIIO OIIIIIIIIIIIIO OIIIIIIIIIIIIO OIIIIIIIIIIIIO OOOOOIIIIOOOOO OOOOOIIIIOOOOO OOOOOIIIIOOOOO OOOOOIIIIOOOOO OOOOOOOOOOOOOO",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Crosses",
+        "id": "Cross125",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 17,
+        "sizeY": 17,
+        "cells": "OOOOOOOOOOOOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOIIIIIOOOOOO OOOOOOOOOOOOOOOOO",
+        "target": "*x123x*x*"
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Crosses",
+        "id": "Cross180",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 20,
+        "sizeY": 20,
+        "cells": "OOOOOOOOOOOOOOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OIIIIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIIIIO OIIIIIIIIIIIIIIIIIIO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOIIIIIIOOOOOOO OOOOOOOOOOOOOOOOOOOO",
+        "target": ""
+    }
+]

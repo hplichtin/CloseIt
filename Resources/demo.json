@@ -1,0 +1,90 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "Welcome",
+        "demoType": "board",
+        "demoObject": [ "DEMO.CloseIt.LOOP" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "UI.Introduction",
+        "demoType": "image",
+        "demoObject": [ "UI.Introduction" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "DEMO.Square5x5|1",
+        "demoType": "board",
+        "demoObject": [ "DEMO.Square5x5.1" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "DEMO.Square5x5|2",
+        "demoType": "board",
+        "demoObject": [ "DEMO.Square5x5.2" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "DEMO.Square4x4.1",
+        "demoType": "board",
+        "demoObject": [ "DEMO.Square4x4.1" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "DEMO.Square5x5|3",
+        "demoType": "board",
+        "demoObject": [ "DEMO.Square5x5.3" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "DEMO.Square5x5|4",
+        "demoType": "board",
+        "demoObject": [ "DEMO.Square5x5.4" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "DEMO.Square4x4.2",
+        "demoType": "board",
+        "demoObject": [ "DEMO.Square4x4.2" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "Challenges.Open",
+        "demoType": "text",
+        "demoObject": [ "" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "Challenges.Short",
+        "demoType": "text",
+        "demoObject": [ "" ]
+    },
+    {
+        "program": "CloseIt",
+        "type": "demo",
+        "version": "v1",
+        "id": "UI.Challenges",
+        "demoType": "image",
+        "demoObject": [ "UI.Challenges.Score", "UI.Challenges.Board", "UI.Challenges.Toolbar", "UI.Challenges.Pause", "UI.Challenges.Play", "UI.Challenges.Toolbar", "UI.Challenges.Help" ]
+    }
+]

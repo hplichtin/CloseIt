@@ -1,0 +1,44 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "incident",
+        "version": "v1",
+        "id": 1,
+        "reportedBy": "Hans-Peter Lichtin <hans-peter.lichtin@outlook.com>",
+        "reportedDate": "2024-08-26",
+        "reportedProgramVersion": "v0.2-1",
+        "incidentType": "Feature",
+        "incidentTitle": "Challenges of same board are sorted by level",
+        "incidentDescription": "",
+        "incidentStatus": "resolved",
+        "resolvedProgramVersion": "v0.2-2"
+    },
+    {
+        "program": "CloseIt",
+        "type": "incident",
+        "version": "v1",
+        "id": 2,
+        "reportedBy": "Hans-Peter Lichtin <hans-peter.lichtin@outlook.com>",
+        "reportedDate": "2024-08-26",
+        "reportedProgramVersion": "v0.2-1",
+        "incidentType": "Feature",
+        "incidentTitle": "Challemges and targets in score displayed in normal (not shortend) version",
+        "incidentDescription": "",
+        "incidentStatus": "resolved",
+        "resolvedProgramVersion": "v0.2-2"
+    },
+    {
+        "program": "CloseIt",
+        "type": "incident",
+        "version": "v1",
+        "id": 2,
+        "reportedBy": "Hans-Peter Lichtin <hans-peter.lichtin@outlook.com>",
+        "reportedDate": "2024-08-26",
+        "reportedProgramVersion": "v0.2-1",
+        "incidentType": "Feature",
+        "incidentTitle": "The size of the boards can be shaped to size of window",
+        "incidentDescription": "",
+        "incidentStatus": "resolved",
+        "resolvedProgramVersion": "v0.2-2"
+    }
+]

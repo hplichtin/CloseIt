@@ -3,16 +3,112 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E702EE2C274D7DB4001CABDB /* CloseItGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE2B274D7DB4001CABDB /* CloseItGamesView.swift */; };
+		E702EE2E274D94B9001CABDB /* CloseItDataBoardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE2D274D94B9001CABDB /* CloseItDataBoardRowView.swift */; };
+		E702EE30274EA6E4001CABDB /* CloseItControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE2F274EA6E4001CABDB /* CloseItControl.swift */; };
+		E702EE3627595270001CABDB /* CloseItDataGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE3527595270001CABDB /* CloseItDataGame.swift */; };
+		E702EE3B275A7120001CABDB /* CloseItMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE3A275A7120001CABDB /* CloseItMessage.swift */; };
+		E702EE3D275B8A75001CABDB /* CloseItDataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE3C275B8A75001CABDB /* CloseItDataUser.swift */; };
+		E702EE412763E0FD001CABDB /* CloseItDataScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE402763E0FD001CABDB /* CloseItDataScore.swift */; };
+		E702EE4327665C2E001CABDB /* CloseItUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE4227665C2E001CABDB /* CloseItUserListView.swift */; };
+		E702EE4527665D43001CABDB /* CloseItUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE4427665D43001CABDB /* CloseItUserView.swift */; };
+		E702EE472766775A001CABDB /* CloseItUserListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE462766775A001CABDB /* CloseItUserListRowView.swift */; };
+		E702EE492766879B001CABDB /* CloseItDataDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE482766879B001CABDB /* CloseItDataDesign.swift */; };
+		E702EE4B27677993001CABDB /* CloseItDataControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE4A27677993001CABDB /* CloseItDataControl.swift */; };
+		E702EE4F27691B5F001CABDB /* CloseItScoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE4E27691B5F001CABDB /* CloseItScoreListView.swift */; };
+		E702EE54276A2F31001CABDB /* CloseItScoreListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE53276A2F31001CABDB /* CloseItScoreListRowView.swift */; };
+		E702EE56276A5DD5001CABDB /* CloseItBoardScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702EE55276A5DD5001CABDB /* CloseItBoardScores.swift */; };
+		E70BD69F26FA6E3A003BC663 /* CloseItGameScoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70BD69E26FA6E3A003BC663 /* CloseItGameScoreListView.swift */; };
+		E70BD6A126FA6FDA003BC663 /* CloseItScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70BD6A026FA6FDA003BC663 /* CloseItScoreView.swift */; };
+		E70BD6A326FA7470003BC663 /* CloseItGameScoreRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70BD6A226FA7470003BC663 /* CloseItGameScoreRowView.swift */; };
+		E71949DD2770C07500C86501 /* BoardsCloseIt.json in Resources */ = {isa = PBXBuildFile; fileRef = E71949DC2770C07500C86501 /* BoardsCloseIt.json */; };
+		E71949DF2770FADA00C86501 /* CloseItGamesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71949DE2770FADA00C86501 /* CloseItGamesGroup.swift */; };
+		E71949E12771294500C86501 /* CloseItGamesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71949E02771294500C86501 /* CloseItGamesGroupView.swift */; };
+		E71949E327712F5E00C86501 /* CloseItDataChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71949E227712F5E00C86501 /* CloseItDataChallenge.swift */; };
+		E71949E52771315E00C86501 /* challenge.json in Resources */ = {isa = PBXBuildFile; fileRef = E71949E42771315E00C86501 /* challenge.json */; };
+		E71949E72771360900C86501 /* CloseItChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71949E62771360900C86501 /* CloseItChallenge.swift */; };
+		E71949E92773660E00C86501 /* BoardsRectangles.json in Resources */ = {isa = PBXBuildFile; fileRef = E71949E82773660E00C86501 /* BoardsRectangles.json */; };
+		E71949EB277388E500C86501 /* BoardsTutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = E71949EA277388E500C86501 /* BoardsTutorial.json */; };
+		E71949ED2777CB5A00C86501 /* CloseItBoardScoresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71949EC2777CB5A00C86501 /* CloseItBoardScoresListView.swift */; };
+		E730892E274ADB820095D6ED /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = E730892D274ADB820095D6ED /* collection.json */; };
+		E7308930274ADC840095D6ED /* CloseItData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730892F274ADC840095D6ED /* CloseItData.swift */; };
+		E7308932274ADD1F0095D6ED /* CloseItDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7308931274ADD1F0095D6ED /* CloseItDataCollection.swift */; };
+		E73B06EA2C3D26BF00B2B897 /* CloseItDataLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B06E92C3D26BF00B2B897 /* CloseItDataLevel.swift */; };
+		E73B06EC2C3E769B00B2B897 /* CloseItClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B06EB2C3E769B00B2B897 /* CloseItClass.swift */; };
+		E73B06F02C3E8DCB00B2B897 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E73B06EE2C3E8DCB00B2B897 /* Localizable.strings */; };
+		E73B06F42C3F243D00B2B897 /* CloseItLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B06F32C3F243D00B2B897 /* CloseItLevel.swift */; };
+		E73B06F72C43C1B800B2B897 /* CloseItAchievementApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B06F62C43C1B800B2B897 /* CloseItAchievementApplicationView.swift */; };
+		E73B06F92C4403E600B2B897 /* CloseItLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B06F82C4403E600B2B897 /* CloseItLevelView.swift */; };
+		E73B06FE2C46EB9100B2B897 /* CloseItData_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B06FD2C46EB9100B2B897 /* CloseItData_Text.swift */; };
+		E74000772C21F4460070FCCC /* CloseItPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74000762C21F4460070FCCC /* CloseItPlayer.swift */; };
+		E752719A2C56B60200426A41 /* CloseItDataAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75271992C56B60200426A41 /* CloseItDataAchievement.swift */; };
+		E757BED02C21AF7100F9B408 /* CloseItSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757BECF2C21AF7100F9B408 /* CloseItSettingsView.swift */; };
+		E76AF0892C5A9BA7005F687A /* CloseItAchievement_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AF0882C5A9BA7005F687A /* CloseItAchievement_Test.swift */; };
+		E76AF08B2C5AAD9A005F687A /* CloseItAchievements_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AF08A2C5AAD9A005F687A /* CloseItAchievements_Test.swift */; };
+		E76AF08D2C5B8CEF005F687A /* CloseItControl_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AF08C2C5B8CEF005F687A /* CloseItControl_Test.swift */; };
+		E773C461276B9CF100B6EB03 /* CloseItViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E773C460276B9CF100B6EB03 /* CloseItViews.swift */; };
+		E773C463276BBCD400B6EB03 /* CloseItAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E773C462276BBCD400B6EB03 /* CloseItAdminView.swift */; };
+		E773C465276BDA8600B6EB03 /* design.json in Resources */ = {isa = PBXBuildFile; fileRef = E773C464276BDA8600B6EB03 /* design.json */; };
+		E79144DC2C6B802E002459D8 /* BoardsLegendary.json in Resources */ = {isa = PBXBuildFile; fileRef = E79144DB2C6B802E002459D8 /* BoardsLegendary.json */; };
+		E79144DE2C6BA250002459D8 /* BoardsCrosses.json in Resources */ = {isa = PBXBuildFile; fileRef = E79144DD2C6BA250002459D8 /* BoardsCrosses.json */; };
+		E7B4B2572C4C292A00A75DFC /* CloseItInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4B2562C4C292A00A75DFC /* CloseItInfoView.swift */; };
+		E7B4B2592C4D07BD00A75DFC /* DemoGames-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B4B2582C4D07BD00A75DFC /* DemoGames-v1.json */; };
+		E7B4B25C2C4D0F4600A75DFC /* CloseItDemoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4B25B2C4D0F4600A75DFC /* CloseItDemoViews.swift */; };
+		E7B4B25E2C4FC6D400A75DFC /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B4B25D2C4FC6D400A75DFC /* demo.json */; };
+		E7B4B2602C4FC91600A75DFC /* CloseItDataDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4B25F2C4FC91600A75DFC /* CloseItDataDemo.swift */; };
+		E7B4B2622C4FCFD200A75DFC /* CloseItDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4B2612C4FCFD200A75DFC /* CloseItDemo.swift */; };
+		E7B4B2642C5156BA00A75DFC /* BoardsABC.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B4B2632C5156BA00A75DFC /* BoardsABC.json */; };
+		E7B4D30A2C299EF4004EDD79 /* CloseItDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4D3092C299EF4004EDD79 /* CloseItDialog.swift */; };
+		E7B4D30E2C2B49DC004EDD79 /* CloseItDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4D30D2C2B49DC004EDD79 /* CloseItDesign.swift */; };
+		E7B4D3102C2D91E9004EDD79 /* CloseItAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4D30F2C2D91E9004EDD79 /* CloseItAchievement.swift */; };
+		E7B4D3142C2DEC3C004EDD79 /* CloseItAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4D3132C2DEC3C004EDD79 /* CloseItAchievementView.swift */; };
+		E7B4D3192C30B63E004EDD79 /* CloseItActionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4D3182C30B63E004EDD79 /* CloseItActionData.swift */; };
+		E7B4D31B2C31662C004EDD79 /* CloseItActionReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4D31A2C31662C004EDD79 /* CloseItActionReview.swift */; };
+		E7B50D8426F7ACA400C9DC12 /* CloseItObjectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B50D8326F7ACA400C9DC12 /* CloseItObjectImageView.swift */; };
+		E7B73A5D2740137E000056E4 /* BoardsSquares.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B73A5C2740137E000056E4 /* BoardsSquares.json */; };
+		E7B73A60274016AB000056E4 /* CloseItDataBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B73A5F274016AB000056E4 /* CloseItDataBoard.swift */; };
+		E7D28C942C1B11AA002DA190 /* incident.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D28C932C1B11AA002DA190 /* incident.json */; };
+		E7D28C962C1B12EB002DA190 /* CloseItDataIncident.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D28C952C1B12EB002DA190 /* CloseItDataIncident.swift */; };
+		E7D28C982C1B5B9E002DA190 /* CloseItScore_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D28C972C1B5B9E002DA190 /* CloseItScore_Test.swift */; };
+		E7DF98922C7C98980030655D /* CloseItDataFeature_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF98912C7C98980030655D /* CloseItDataFeature_Test.swift */; };
+		E7DF98962C7DD4080030655D /* CloseItDataConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF98952C7DD4080030655D /* CloseItDataConfig.swift */; };
+		E7DF98982C7DD5B40030655D /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = E7DF98972C7DD5B40030655D /* config.json */; };
+		E7DF989C2C7E151D0030655D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DF989B2C7E151D0030655D /* Assets.xcassets */; };
+		E7DF989F2C7F56FF0030655D /* BoardsTriangles.json in Resources */ = {isa = PBXBuildFile; fileRef = E7DF989E2C7F56FF0030655D /* BoardsTriangles.json */; };
+		E7E7F95C28D5B44C0098DB96 /* CloseItActionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F95B28D5B44C0098DB96 /* CloseItActionArray.swift */; };
+		E7E7F95E28D5CD630098DB96 /* CloseItGameActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F95D28D5CD630098DB96 /* CloseItGameActions.swift */; };
+		E7E7F96228D775920098DB96 /* CloseItAdminInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F96128D775920098DB96 /* CloseItAdminInfoView.swift */; };
+		E7E7F96428D7A5D70098DB96 /* feature.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E7F96328D7A5D70098DB96 /* feature.json */; };
+		E7E7F97028DE1C630098DB96 /* CloseItDataFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F96F28DE1C630098DB96 /* CloseItDataFeature.swift */; };
+		E7E7F97228DE30160098DB96 /* CloseItProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F97128DE30160098DB96 /* CloseItProgramView.swift */; };
+		E7E7F97428DF94E50098DB96 /* CloaeItSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F97328DF94E50098DB96 /* CloaeItSystemView.swift */; };
+		E7E7F97628E06AE20098DB96 /* CloseItLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E7F97528E06AE20098DB96 /* CloseItLaunchScreen.storyboard */; };
+		E7E7F97828E0773B0098DB96 /* CloseItObject_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F97728E0773B0098DB96 /* CloseItObject_Test.swift */; };
+		E7E7F97A28E0D3F40098DB96 /* CloseItGame_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7F97928E0D3F40098DB96 /* CloseItGame_Test.swift */; };
+		E7EA6823276BF98C00E216F1 /* CloseItColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA6822276BF98C00E216F1 /* CloseItColor.swift */; };
+		E7F5F3742C74B36700616C45 /* CloseItGamesGroup_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5F3732C74B36700616C45 /* CloseItGamesGroup_Test.swift */; };
+		E7F5F3762C75FD1A00616C45 /* CloseIt_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5F3752C75FD1A00616C45 /* CloseIt_Test.swift */; };
 		E7F81DF026EDDCC000852F9C /* CloseItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81DEF26EDDCC000852F9C /* CloseItApp.swift */; };
-		E7F81DF226EDDCC000852F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81DF126EDDCC000852F9C /* ContentView.swift */; };
-		E7F81DF426EDDCC100852F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F81DF326EDDCC100852F9C /* Assets.xcassets */; };
+		E7F81DF226EDDCC000852F9C /* CloseItMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81DF126EDDCC000852F9C /* CloseItMainView.swift */; };
 		E7F81DF726EDDCC100852F9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F81DF626EDDCC100852F9C /* Preview Assets.xcassets */; };
-		E7F81E0226EDDCC100852F9C /* CloseItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E0126EDDCC100852F9C /* CloseItTests.swift */; };
 		E7F81E0D26EDDCC100852F9C /* CloseItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E0C26EDDCC100852F9C /* CloseItUITests.swift */; };
+		E7F81E1E26EDDD6900852F9C /* CloseItUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E1D26EDDD6900852F9C /* CloseItUser.swift */; };
+		E7F81E2226EDDE0A00852F9C /* CloseItObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2126EDDE0A00852F9C /* CloseItObject.swift */; };
+		E7F81E2426EDE72400852F9C /* CloseItObjectArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2326EDE72400852F9C /* CloseItObjectArray.swift */; };
+		E7F81E2626EDE77900852F9C /* CloseItObjectTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2526EDE77900852F9C /* CloseItObjectTable.swift */; };
+		E7F81E2826EDE7A100852F9C /* CloseItBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2726EDE7A100852F9C /* CloseItBoard.swift */; };
+		E7F81E2C26EDE87600852F9C /* CloseItScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2B26EDE87600852F9C /* CloseItScore.swift */; };
+		E7F81E2E26EDE8B600852F9C /* CloseItGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2D26EDE8B600852F9C /* CloseItGame.swift */; };
+		E7F81E3026EDE8F200852F9C /* CloseItAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E2F26EDE8F200852F9C /* CloseItAction.swift */; };
+		E7F81E3426EDE96D00852F9C /* CloseItActionSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E3326EDE96D00852F9C /* CloseItActionSelect.swift */; };
+		E7F81E3726F525AB00852F9C /* CloseItObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E3626F525AB00852F9C /* CloseItObjectView.swift */; };
+		E7F81E3B26F52C0A00852F9C /* CloseItBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E3A26F52C0A00852F9C /* CloseItBoardView.swift */; };
+		E7F81E3D26F550D100852F9C /* CloseItBoardLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E3C26F550D100852F9C /* CloseItBoardLineView.swift */; };
+		E7F81E3F26F611D900852F9C /* CloseItGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F81E3E26F611D900852F9C /* CloseItGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +129,117 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E702EE2B274D7DB4001CABDB /* CloseItGamesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItGamesView.swift; sourceTree = "<group>"; };
+		E702EE2D274D94B9001CABDB /* CloseItDataBoardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItDataBoardRowView.swift; sourceTree = "<group>"; };
+		E702EE2F274EA6E4001CABDB /* CloseItControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItControl.swift; sourceTree = "<group>"; };
+		E702EE3527595270001CABDB /* CloseItDataGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataGame.swift; sourceTree = "<group>"; };
+		E702EE3A275A7120001CABDB /* CloseItMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItMessage.swift; sourceTree = "<group>"; };
+		E702EE3C275B8A75001CABDB /* CloseItDataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItDataUser.swift; sourceTree = "<group>"; };
+		E702EE402763E0FD001CABDB /* CloseItDataScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataScore.swift; sourceTree = "<group>"; };
+		E702EE4227665C2E001CABDB /* CloseItUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItUserListView.swift; sourceTree = "<group>"; };
+		E702EE4427665D43001CABDB /* CloseItUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItUserView.swift; sourceTree = "<group>"; };
+		E702EE462766775A001CABDB /* CloseItUserListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItUserListRowView.swift; sourceTree = "<group>"; };
+		E702EE482766879B001CABDB /* CloseItDataDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItDataDesign.swift; sourceTree = "<group>"; };
+		E702EE4A27677993001CABDB /* CloseItDataControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataControl.swift; sourceTree = "<group>"; };
+		E702EE4E27691B5F001CABDB /* CloseItScoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItScoreListView.swift; sourceTree = "<group>"; };
+		E702EE53276A2F31001CABDB /* CloseItScoreListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItScoreListRowView.swift; sourceTree = "<group>"; };
+		E702EE55276A5DD5001CABDB /* CloseItBoardScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItBoardScores.swift; sourceTree = "<group>"; };
+		E70BD69E26FA6E3A003BC663 /* CloseItGameScoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItGameScoreListView.swift; sourceTree = "<group>"; };
+		E70BD6A026FA6FDA003BC663 /* CloseItScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItScoreView.swift; sourceTree = "<group>"; };
+		E70BD6A226FA7470003BC663 /* CloseItGameScoreRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItGameScoreRowView.swift; sourceTree = "<group>"; };
+		E71949DC2770C07500C86501 /* BoardsCloseIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BoardsCloseIt.json; path = Resources/BoardsCloseIt.json; sourceTree = SOURCE_ROOT; };
+		E71949DE2770FADA00C86501 /* CloseItGamesGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItGamesGroup.swift; sourceTree = "<group>"; };
+		E71949E02771294500C86501 /* CloseItGamesGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItGamesGroupView.swift; sourceTree = "<group>"; };
+		E71949E227712F5E00C86501 /* CloseItDataChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataChallenge.swift; sourceTree = "<group>"; };
+		E71949E42771315E00C86501 /* challenge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = challenge.json; path = Resources/challenge.json; sourceTree = SOURCE_ROOT; };
+		E71949E62771360900C86501 /* CloseItChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItChallenge.swift; sourceTree = "<group>"; };
+		E71949E82773660E00C86501 /* BoardsRectangles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BoardsRectangles.json; path = Resources/BoardsRectangles.json; sourceTree = SOURCE_ROOT; };
+		E71949EA277388E500C86501 /* BoardsTutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BoardsTutorial.json; sourceTree = "<group>"; };
+		E71949EC2777CB5A00C86501 /* CloseItBoardScoresListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItBoardScoresListView.swift; sourceTree = "<group>"; };
+		E730892D274ADB820095D6ED /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = collection.json; path = Resources/collection.json; sourceTree = SOURCE_ROOT; };
+		E730892F274ADC840095D6ED /* CloseItData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItData.swift; sourceTree = "<group>"; };
+		E7308931274ADD1F0095D6ED /* CloseItDataCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataCollection.swift; sourceTree = "<group>"; };
+		E73B06E92C3D26BF00B2B897 /* CloseItDataLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataLevel.swift; sourceTree = "<group>"; };
+		E73B06EB2C3E769B00B2B897 /* CloseItClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItClass.swift; sourceTree = "<group>"; };
+		E73B06EF2C3E8DCB00B2B897 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E73B06F22C3E8EDA00B2B897 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E73B06F32C3F243D00B2B897 /* CloseItLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItLevel.swift; sourceTree = "<group>"; };
+		E73B06F62C43C1B800B2B897 /* CloseItAchievementApplicationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItAchievementApplicationView.swift; sourceTree = "<group>"; };
+		E73B06F82C4403E600B2B897 /* CloseItLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItLevelView.swift; sourceTree = "<group>"; };
+		E73B06FD2C46EB9100B2B897 /* CloseItData_Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItData_Text.swift; sourceTree = "<group>"; };
+		E74000732C21E6680070FCCC /* CloseItRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloseItRelease.entitlements; sourceTree = "<group>"; };
+		E74000762C21F4460070FCCC /* CloseItPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItPlayer.swift; sourceTree = "<group>"; };
+		E74000782C232F220070FCCC /* CloseIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloseIt.entitlements; sourceTree = "<group>"; };
+		E75271992C56B60200426A41 /* CloseItDataAchievement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataAchievement.swift; sourceTree = "<group>"; };
+		E757BECF2C21AF7100F9B408 /* CloseItSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItSettingsView.swift; sourceTree = "<group>"; };
+		E76AF0882C5A9BA7005F687A /* CloseItAchievement_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItAchievement_Test.swift; sourceTree = "<group>"; };
+		E76AF08A2C5AAD9A005F687A /* CloseItAchievements_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItAchievements_Test.swift; sourceTree = "<group>"; };
+		E76AF08C2C5B8CEF005F687A /* CloseItControl_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItControl_Test.swift; sourceTree = "<group>"; };
+		E773C460276B9CF100B6EB03 /* CloseItViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItViews.swift; sourceTree = "<group>"; };
+		E773C462276BBCD400B6EB03 /* CloseItAdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItAdminView.swift; sourceTree = "<group>"; };
+		E773C464276BDA8600B6EB03 /* design.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = design.json; path = Resources/design.json; sourceTree = SOURCE_ROOT; };
+		E79144DB2C6B802E002459D8 /* BoardsLegendary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BoardsLegendary.json; path = Resources/BoardsLegendary.json; sourceTree = SOURCE_ROOT; };
+		E79144DD2C6BA250002459D8 /* BoardsCrosses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BoardsCrosses.json; path = Resources/BoardsCrosses.json; sourceTree = SOURCE_ROOT; };
+		E7B4B2562C4C292A00A75DFC /* CloseItInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItInfoView.swift; sourceTree = "<group>"; };
+		E7B4B2582C4D07BD00A75DFC /* DemoGames-v1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "DemoGames-v1.json"; path = "Resources/DemoGames-v1.json"; sourceTree = SOURCE_ROOT; };
+		E7B4B25B2C4D0F4600A75DFC /* CloseItDemoViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDemoViews.swift; sourceTree = "<group>"; };
+		E7B4B25D2C4FC6D400A75DFC /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = demo.json; path = Resources/demo.json; sourceTree = SOURCE_ROOT; };
+		E7B4B25F2C4FC91600A75DFC /* CloseItDataDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataDemo.swift; sourceTree = "<group>"; };
+		E7B4B2612C4FCFD200A75DFC /* CloseItDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDemo.swift; sourceTree = "<group>"; };
+		E7B4B2632C5156BA00A75DFC /* BoardsABC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BoardsABC.json; path = Resources/BoardsABC.json; sourceTree = SOURCE_ROOT; };
+		E7B4D3092C299EF4004EDD79 /* CloseItDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItDialog.swift; sourceTree = "<group>"; };
+		E7B4D30D2C2B49DC004EDD79 /* CloseItDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItDesign.swift; sourceTree = "<group>"; };
+		E7B4D30F2C2D91E9004EDD79 /* CloseItAchievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItAchievement.swift; sourceTree = "<group>"; };
+		E7B4D3132C2DEC3C004EDD79 /* CloseItAchievementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItAchievementView.swift; sourceTree = "<group>"; };
+		E7B4D3182C30B63E004EDD79 /* CloseItActionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItActionData.swift; sourceTree = "<group>"; };
+		E7B4D31A2C31662C004EDD79 /* CloseItActionReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItActionReview.swift; sourceTree = "<group>"; };
+		E7B50D8326F7ACA400C9DC12 /* CloseItObjectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItObjectImageView.swift; sourceTree = "<group>"; };
+		E7B73A5C2740137E000056E4 /* BoardsSquares.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BoardsSquares.json; path = Resources/BoardsSquares.json; sourceTree = SOURCE_ROOT; };
+		E7B73A5F274016AB000056E4 /* CloseItDataBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItDataBoard.swift; sourceTree = "<group>"; };
+		E7D28C932C1B11AA002DA190 /* incident.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = incident.json; path = Resources/incident.json; sourceTree = SOURCE_ROOT; };
+		E7D28C952C1B12EB002DA190 /* CloseItDataIncident.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataIncident.swift; sourceTree = "<group>"; };
+		E7D28C972C1B5B9E002DA190 /* CloseItScore_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItScore_Test.swift; sourceTree = "<group>"; };
+		E7DF98912C7C98980030655D /* CloseItDataFeature_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloseItDataFeature_Test.swift; path = "../../CloseIt v0.2 (20240821-1)/CloseItTests/CloseItDataFeature_Test.swift"; sourceTree = "<group>"; };
+		E7DF98952C7DD4080030655D /* CloseItDataConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataConfig.swift; sourceTree = "<group>"; };
+		E7DF98972C7DD5B40030655D /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = Resources/config.json; sourceTree = SOURCE_ROOT; };
+		E7DF989B2C7E151D0030655D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7DF989E2C7F56FF0030655D /* BoardsTriangles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BoardsTriangles.json; sourceTree = "<group>"; };
+		E7E7F95B28D5B44C0098DB96 /* CloseItActionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItActionArray.swift; sourceTree = "<group>"; };
+		E7E7F95D28D5CD630098DB96 /* CloseItGameActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItGameActions.swift; sourceTree = "<group>"; };
+		E7E7F96128D775920098DB96 /* CloseItAdminInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItAdminInfoView.swift; sourceTree = "<group>"; };
+		E7E7F96328D7A5D70098DB96 /* feature.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = feature.json; path = Resources/feature.json; sourceTree = SOURCE_ROOT; };
+		E7E7F96F28DE1C630098DB96 /* CloseItDataFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItDataFeature.swift; sourceTree = "<group>"; };
+		E7E7F97128DE30160098DB96 /* CloseItProgramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItProgramView.swift; sourceTree = "<group>"; };
+		E7E7F97328DF94E50098DB96 /* CloaeItSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloaeItSystemView.swift; sourceTree = "<group>"; };
+		E7E7F97528E06AE20098DB96 /* CloseItLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CloseItLaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7E7F97728E0773B0098DB96 /* CloseItObject_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItObject_Test.swift; sourceTree = "<group>"; };
+		E7E7F97928E0D3F40098DB96 /* CloseItGame_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItGame_Test.swift; sourceTree = "<group>"; };
+		E7EA6822276BF98C00E216F1 /* CloseItColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItColor.swift; sourceTree = "<group>"; };
+		E7F5F3732C74B36700616C45 /* CloseItGamesGroup_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseItGamesGroup_Test.swift; sourceTree = "<group>"; };
+		E7F5F3752C75FD1A00616C45 /* CloseIt_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseIt_Test.swift; sourceTree = "<group>"; };
 		E7F81DEC26EDDCC000852F9C /* CloseIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloseIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F81DEF26EDDCC000852F9C /* CloseItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItApp.swift; sourceTree = "<group>"; };
-		E7F81DF126EDDCC000852F9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7F81DF326EDDCC100852F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7F81DF126EDDCC000852F9C /* CloseItMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItMainView.swift; sourceTree = "<group>"; };
 		E7F81DF626EDDCC100852F9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7F81DF826EDDCC100852F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F81DFD26EDDCC100852F9C /* CloseItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7F81E0126EDDCC100852F9C /* CloseItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItTests.swift; sourceTree = "<group>"; };
 		E7F81E0326EDDCC100852F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F81E0826EDDCC100852F9C /* CloseItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F81E0C26EDDCC100852F9C /* CloseItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItUITests.swift; sourceTree = "<group>"; };
 		E7F81E0E26EDDCC100852F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F81E1D26EDDD6900852F9C /* CloseItUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItUser.swift; sourceTree = "<group>"; };
+		E7F81E2126EDDE0A00852F9C /* CloseItObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItObject.swift; sourceTree = "<group>"; };
+		E7F81E2326EDE72400852F9C /* CloseItObjectArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItObjectArray.swift; sourceTree = "<group>"; };
+		E7F81E2526EDE77900852F9C /* CloseItObjectTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItObjectTable.swift; sourceTree = "<group>"; };
+		E7F81E2726EDE7A100852F9C /* CloseItBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItBoard.swift; sourceTree = "<group>"; };
+		E7F81E2B26EDE87600852F9C /* CloseItScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItScore.swift; sourceTree = "<group>"; };
+		E7F81E2D26EDE8B600852F9C /* CloseItGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItGame.swift; sourceTree = "<group>"; };
+		E7F81E2F26EDE8F200852F9C /* CloseItAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItAction.swift; sourceTree = "<group>"; };
+		E7F81E3326EDE96D00852F9C /* CloseItActionSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItActionSelect.swift; sourceTree = "<group>"; };
+		E7F81E3626F525AB00852F9C /* CloseItObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItObjectView.swift; sourceTree = "<group>"; };
+		E7F81E3A26F52C0A00852F9C /* CloseItBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItBoardView.swift; sourceTree = "<group>"; };
+		E7F81E3C26F550D100852F9C /* CloseItBoardLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItBoardLineView.swift; sourceTree = "<group>"; };
+		E7F81E3E26F611D900852F9C /* CloseItGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseItGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +267,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E702EE34275930DC001CABDB /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				E74000762C21F4460070FCCC /* CloseItPlayer.swift */,
+				E702EE2F274EA6E4001CABDB /* CloseItControl.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		E702EE39275A70E1001CABDB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E7B4D3092C299EF4004EDD79 /* CloseItDialog.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E702EE5027691EB7001CABDB /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				E702EE4427665D43001CABDB /* CloseItUserView.swift */,
+				E702EE462766775A001CABDB /* CloseItUserListRowView.swift */,
+				E702EE4227665C2E001CABDB /* CloseItUserListView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		E702EE5127691EDF001CABDB /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				E7B50D8326F7ACA400C9DC12 /* CloseItObjectImageView.swift */,
+				E7F81E3626F525AB00852F9C /* CloseItObjectView.swift */,
+				E7F81E3C26F550D100852F9C /* CloseItBoardLineView.swift */,
+				E7F81E3A26F52C0A00852F9C /* CloseItBoardView.swift */,
+				E70BD6A226FA7470003BC663 /* CloseItGameScoreRowView.swift */,
+				E70BD69E26FA6E3A003BC663 /* CloseItGameScoreListView.swift */,
+				E7F81E3E26F611D900852F9C /* CloseItGameView.swift */,
+				E702EE2D274D94B9001CABDB /* CloseItDataBoardRowView.swift */,
+				E702EE2B274D7DB4001CABDB /* CloseItGamesView.swift */,
+				E71949E02771294500C86501 /* CloseItGamesGroupView.swift */,
+			);
+			path = Boards;
+			sourceTree = "<group>";
+		};
+		E702EE5227691EF6001CABDB /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				E702EE53276A2F31001CABDB /* CloseItScoreListRowView.swift */,
+				E70BD6A026FA6FDA003BC663 /* CloseItScoreView.swift */,
+				E702EE4E27691B5F001CABDB /* CloseItScoreListView.swift */,
+				E71949EC2777CB5A00C86501 /* CloseItBoardScoresListView.swift */,
+			);
+			path = Scores;
+			sourceTree = "<group>";
+		};
+		E73B06ED2C3E8D6E00B2B897 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E73B06EE2C3E8DCB00B2B897 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		E73B06F52C43C15100B2B897 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				E73B06F82C4403E600B2B897 /* CloseItLevelView.swift */,
+				E7B4D3132C2DEC3C004EDD79 /* CloseItAchievementView.swift */,
+				E73B06F62C43C1B800B2B897 /* CloseItAchievementApplicationView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		E7B4B25A2C4D0F1D00A75DFC /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				E7B4B25B2C4D0F4600A75DFC /* CloseItDemoViews.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		E7B4D3152C2F066D004EDD79 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E773C460276B9CF100B6EB03 /* CloseItViews.swift */,
+				E7EA6822276BF98C00E216F1 /* CloseItColor.swift */,
+				E7B4B2562C4C292A00A75DFC /* CloseItInfoView.swift */,
+				E7F81DF126EDDCC000852F9C /* CloseItMainView.swift */,
+				E7F81DEF26EDDCC000852F9C /* CloseItApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E7B73A5B274011E2000056E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F97528E06AE20098DB96 /* CloseItLaunchScreen.storyboard */,
+				E7DF98972C7DD5B40030655D /* config.json */,
+				E7E7F96328D7A5D70098DB96 /* feature.json */,
+				E7D28C932C1B11AA002DA190 /* incident.json */,
+				E730892D274ADB820095D6ED /* collection.json */,
+				E773C464276BDA8600B6EB03 /* design.json */,
+				E7B4B25D2C4FC6D400A75DFC /* demo.json */,
+				E71949E42771315E00C86501 /* challenge.json */,
+				E71949EA277388E500C86501 /* BoardsTutorial.json */,
+				E7B73A5C2740137E000056E4 /* BoardsSquares.json */,
+				E71949E82773660E00C86501 /* BoardsRectangles.json */,
+				E7DF989E2C7F56FF0030655D /* BoardsTriangles.json */,
+				E71949DC2770C07500C86501 /* BoardsCloseIt.json */,
+				E7B4B2632C5156BA00A75DFC /* BoardsABC.json */,
+				E79144DB2C6B802E002459D8 /* BoardsLegendary.json */,
+				E79144DD2C6BA250002459D8 /* BoardsCrosses.json */,
+				E7B4B2582C4D07BD00A75DFC /* DemoGames-v1.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7B73A5E27401673000056E4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E730892F274ADC840095D6ED /* CloseItData.swift */,
+				E7DF98952C7DD4080030655D /* CloseItDataConfig.swift */,
+				E7E7F96F28DE1C630098DB96 /* CloseItDataFeature.swift */,
+				E7D28C952C1B12EB002DA190 /* CloseItDataIncident.swift */,
+				E73B06E92C3D26BF00B2B897 /* CloseItDataLevel.swift */,
+				E7B4B25F2C4FC91600A75DFC /* CloseItDataDemo.swift */,
+				E702EE482766879B001CABDB /* CloseItDataDesign.swift */,
+				E75271992C56B60200426A41 /* CloseItDataAchievement.swift */,
+				E7B73A5F274016AB000056E4 /* CloseItDataBoard.swift */,
+				E7308931274ADD1F0095D6ED /* CloseItDataCollection.swift */,
+				E702EE3527595270001CABDB /* CloseItDataGame.swift */,
+				E71949E227712F5E00C86501 /* CloseItDataChallenge.swift */,
+				E702EE3C275B8A75001CABDB /* CloseItDataUser.swift */,
+				E702EE402763E0FD001CABDB /* CloseItDataScore.swift */,
+				E702EE4A27677993001CABDB /* CloseItDataControl.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E7E7F96028D7753B0098DB96 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F96128D775920098DB96 /* CloseItAdminInfoView.swift */,
+				E7E7F97128DE30160098DB96 /* CloseItProgramView.swift */,
+				E7E7F97328DF94E50098DB96 /* CloaeItSystemView.swift */,
+				E757BECF2C21AF7100F9B408 /* CloseItSettingsView.swift */,
+				E773C462276BBCD400B6EB03 /* CloseItAdminView.swift */,
+			);
+			name = Admin;
+			sourceTree = "<group>";
+		};
 		E7F81DE326EDDCC000852F9C = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +441,18 @@
 		E7F81DEE26EDDCC000852F9C /* CloseIt */ = {
 			isa = PBXGroup;
 			children = (
-				E7F81DEF26EDDCC000852F9C /* CloseItApp.swift */,
-				E7F81DF126EDDCC000852F9C /* ContentView.swift */,
-				E7F81DF326EDDCC100852F9C /* Assets.xcassets */,
+				E74000782C232F220070FCCC /* CloseIt.entitlements */,
+				E74000732C21E6680070FCCC /* CloseItRelease.entitlements */,
+				E73B06EB2C3E769B00B2B897 /* CloseItClass.swift */,
+				E702EE3A275A7120001CABDB /* CloseItMessage.swift */,
+				E702EE39275A70E1001CABDB /* Tools */,
+				E7B73A5E27401673000056E4 /* Data */,
+				E7F81E1C26EDDD2F00852F9C /* Model */,
+				E702EE34275930DC001CABDB /* Control */,
+				E7F81E3526F5257900852F9C /* Views */,
+				E7B73A5B274011E2000056E4 /* Resources */,
+				E73B06ED2C3E8D6E00B2B897 /* Localization */,
+				E7DF989B2C7E151D0030655D /* Assets.xcassets */,
 				E7F81DF826EDDCC100852F9C /* Info.plist */,
 				E7F81DF526EDDCC100852F9C /* Preview Content */,
 			);
@@ -115,7 +470,16 @@
 		E7F81E0026EDDCC100852F9C /* CloseItTests */ = {
 			isa = PBXGroup;
 			children = (
-				E7F81E0126EDDCC100852F9C /* CloseItTests.swift */,
+				E7F5F3752C75FD1A00616C45 /* CloseIt_Test.swift */,
+				E76AF0882C5A9BA7005F687A /* CloseItAchievement_Test.swift */,
+				E76AF08A2C5AAD9A005F687A /* CloseItAchievements_Test.swift */,
+				E76AF08C2C5B8CEF005F687A /* CloseItControl_Test.swift */,
+				E7DF98912C7C98980030655D /* CloseItDataFeature_Test.swift */,
+				E7F5F3732C74B36700616C45 /* CloseItGamesGroup_Test.swift */,
+				E7E7F97728E0773B0098DB96 /* CloseItObject_Test.swift */,
+				E73B06FD2C46EB9100B2B897 /* CloseItData_Text.swift */,
+				E7E7F97928E0D3F40098DB96 /* CloseItGame_Test.swift */,
+				E7D28C972C1B5B9E002DA190 /* CloseItScore_Test.swift */,
 				E7F81E0326EDDCC100852F9C /* Info.plist */,
 			);
 			path = CloseItTests;
@@ -128,6 +492,47 @@
 				E7F81E0E26EDDCC100852F9C /* Info.plist */,
 			);
 			path = CloseItUITests;
+			sourceTree = "<group>";
+		};
+		E7F81E1C26EDDD2F00852F9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E73B06F32C3F243D00B2B897 /* CloseItLevel.swift */,
+				E7B4B2612C4FCFD200A75DFC /* CloseItDemo.swift */,
+				E7B4D30F2C2D91E9004EDD79 /* CloseItAchievement.swift */,
+				E7B4D30D2C2B49DC004EDD79 /* CloseItDesign.swift */,
+				E7F81E1D26EDDD6900852F9C /* CloseItUser.swift */,
+				E702EE55276A5DD5001CABDB /* CloseItBoardScores.swift */,
+				E71949DE2770FADA00C86501 /* CloseItGamesGroup.swift */,
+				E7F81E2126EDDE0A00852F9C /* CloseItObject.swift */,
+				E7F81E2326EDE72400852F9C /* CloseItObjectArray.swift */,
+				E7F81E2526EDE77900852F9C /* CloseItObjectTable.swift */,
+				E7F81E2726EDE7A100852F9C /* CloseItBoard.swift */,
+				E7B4D3182C30B63E004EDD79 /* CloseItActionData.swift */,
+				E7F81E2F26EDE8F200852F9C /* CloseItAction.swift */,
+				E7E7F95B28D5B44C0098DB96 /* CloseItActionArray.swift */,
+				E7F81E3326EDE96D00852F9C /* CloseItActionSelect.swift */,
+				E7B4D31A2C31662C004EDD79 /* CloseItActionReview.swift */,
+				E7E7F95D28D5CD630098DB96 /* CloseItGameActions.swift */,
+				E71949E62771360900C86501 /* CloseItChallenge.swift */,
+				E7F81E2B26EDE87600852F9C /* CloseItScore.swift */,
+				E7F81E2D26EDE8B600852F9C /* CloseItGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7F81E3526F5257900852F9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7B4B25A2C4D0F1D00A75DFC /* Demos */,
+				E73B06F52C43C15100B2B897 /* Achievements */,
+				E702EE5127691EDF001CABDB /* Boards */,
+				E702EE5227691EF6001CABDB /* Scores */,
+				E7E7F96028D7753B0098DB96 /* Admin */,
+				E702EE5027691EB7001CABDB /* Users */,
+				E7B4D3152C2F066D004EDD79 /* App */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,14 +597,16 @@
 		E7F81DE426EDDCC000852F9C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					E7F81DEB26EDDCC000852F9C = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					E7F81DFC26EDDCC100852F9C = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1540;
 						TestTargetID = E7F81DEB26EDDCC000852F9C;
 					};
 					E7F81E0726EDDCC100852F9C = {
@@ -215,6 +622,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = E7F81DE326EDDCC000852F9C;
 			productRefGroup = E7F81DED26EDDCC000852F9C /* Products */;
@@ -233,8 +641,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79144DE2C6BA250002459D8 /* BoardsCrosses.json in Resources */,
+				E71949E92773660E00C86501 /* BoardsRectangles.json in Resources */,
+				E71949EB277388E500C86501 /* BoardsTutorial.json in Resources */,
+				E7DF989C2C7E151D0030655D /* Assets.xcassets in Resources */,
+				E773C465276BDA8600B6EB03 /* design.json in Resources */,
+				E7B4B2592C4D07BD00A75DFC /* DemoGames-v1.json in Resources */,
+				E79144DC2C6B802E002459D8 /* BoardsLegendary.json in Resources */,
+				E730892E274ADB820095D6ED /* collection.json in Resources */,
+				E7DF989F2C7F56FF0030655D /* BoardsTriangles.json in Resources */,
+				E71949DD2770C07500C86501 /* BoardsCloseIt.json in Resources */,
+				E7B4B25E2C4FC6D400A75DFC /* demo.json in Resources */,
+				E7DF98982C7DD5B40030655D /* config.json in Resources */,
+				E7B73A5D2740137E000056E4 /* BoardsSquares.json in Resources */,
+				E7E7F97628E06AE20098DB96 /* CloseItLaunchScreen.storyboard in Resources */,
 				E7F81DF726EDDCC100852F9C /* Preview Assets.xcassets in Resources */,
-				E7F81DF426EDDCC100852F9C /* Assets.xcassets in Resources */,
+				E73B06F02C3E8DCB00B2B897 /* Localizable.strings in Resources */,
+				E7E7F96428D7A5D70098DB96 /* feature.json in Resources */,
+				E7D28C942C1B11AA002DA190 /* incident.json in Resources */,
+				E7B4B2642C5156BA00A75DFC /* BoardsABC.json in Resources */,
+				E71949E52771315E00C86501 /* challenge.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +685,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F81DF226EDDCC000852F9C /* ContentView.swift in Sources */,
+				E7F81E2E26EDE8B600852F9C /* CloseItGame.swift in Sources */,
+				E7B4B2572C4C292A00A75DFC /* CloseItInfoView.swift in Sources */,
+				E702EE492766879B001CABDB /* CloseItDataDesign.swift in Sources */,
+				E7308932274ADD1F0095D6ED /* CloseItDataCollection.swift in Sources */,
+				E702EE4B27677993001CABDB /* CloseItDataControl.swift in Sources */,
+				E71949E72771360900C86501 /* CloseItChallenge.swift in Sources */,
+				E73B06EC2C3E769B00B2B897 /* CloseItClass.swift in Sources */,
+				E7F81E2826EDE7A100852F9C /* CloseItBoard.swift in Sources */,
+				E7F81E2226EDDE0A00852F9C /* CloseItObject.swift in Sources */,
+				E7F81E2C26EDE87600852F9C /* CloseItScore.swift in Sources */,
+				E7F81E3F26F611D900852F9C /* CloseItGameView.swift in Sources */,
+				E7308930274ADC840095D6ED /* CloseItData.swift in Sources */,
+				E702EE4F27691B5F001CABDB /* CloseItScoreListView.swift in Sources */,
+				E702EE54276A2F31001CABDB /* CloseItScoreListRowView.swift in Sources */,
+				E7B4B2602C4FC91600A75DFC /* CloseItDataDemo.swift in Sources */,
+				E73B06F92C4403E600B2B897 /* CloseItLevelView.swift in Sources */,
+				E702EE412763E0FD001CABDB /* CloseItDataScore.swift in Sources */,
+				E702EE3B275A7120001CABDB /* CloseItMessage.swift in Sources */,
+				E70BD6A326FA7470003BC663 /* CloseItGameScoreRowView.swift in Sources */,
+				E757BED02C21AF7100F9B408 /* CloseItSettingsView.swift in Sources */,
+				E702EE56276A5DD5001CABDB /* CloseItBoardScores.swift in Sources */,
+				E71949ED2777CB5A00C86501 /* CloseItBoardScoresListView.swift in Sources */,
+				E702EE4527665D43001CABDB /* CloseItUserView.swift in Sources */,
+				E71949E327712F5E00C86501 /* CloseItDataChallenge.swift in Sources */,
+				E773C461276B9CF100B6EB03 /* CloseItViews.swift in Sources */,
+				E71949DF2770FADA00C86501 /* CloseItGamesGroup.swift in Sources */,
+				E70BD69F26FA6E3A003BC663 /* CloseItGameScoreListView.swift in Sources */,
+				E702EE30274EA6E4001CABDB /* CloseItControl.swift in Sources */,
+				E7F81E3726F525AB00852F9C /* CloseItObjectView.swift in Sources */,
+				E7B73A60274016AB000056E4 /* CloseItDataBoard.swift in Sources */,
+				E7F81E3D26F550D100852F9C /* CloseItBoardLineView.swift in Sources */,
+				E702EE2E274D94B9001CABDB /* CloseItDataBoardRowView.swift in Sources */,
+				E7B4B25C2C4D0F4600A75DFC /* CloseItDemoViews.swift in Sources */,
+				E7B4D30A2C299EF4004EDD79 /* CloseItDialog.swift in Sources */,
+				E773C463276BBCD400B6EB03 /* CloseItAdminView.swift in Sources */,
+				E7F81E3B26F52C0A00852F9C /* CloseItBoardView.swift in Sources */,
+				E7E7F97028DE1C630098DB96 /* CloseItDataFeature.swift in Sources */,
+				E7B50D8426F7ACA400C9DC12 /* CloseItObjectImageView.swift in Sources */,
+				E7B4D3192C30B63E004EDD79 /* CloseItActionData.swift in Sources */,
+				E7F81DF226EDDCC000852F9C /* CloseItMainView.swift in Sources */,
+				E70BD6A126FA6FDA003BC663 /* CloseItScoreView.swift in Sources */,
+				E73B06EA2C3D26BF00B2B897 /* CloseItDataLevel.swift in Sources */,
+				E702EE3627595270001CABDB /* CloseItDataGame.swift in Sources */,
+				E73B06F72C43C1B800B2B897 /* CloseItAchievementApplicationView.swift in Sources */,
+				E7B4D30E2C2B49DC004EDD79 /* CloseItDesign.swift in Sources */,
+				E71949E12771294500C86501 /* CloseItGamesGroupView.swift in Sources */,
+				E7E7F95E28D5CD630098DB96 /* CloseItGameActions.swift in Sources */,
+				E7B4D3142C2DEC3C004EDD79 /* CloseItAchievementView.swift in Sources */,
+				E7E7F97228DE30160098DB96 /* CloseItProgramView.swift in Sources */,
+				E752719A2C56B60200426A41 /* CloseItDataAchievement.swift in Sources */,
+				E7F81E1E26EDDD6900852F9C /* CloseItUser.swift in Sources */,
+				E7E7F95C28D5B44C0098DB96 /* CloseItActionArray.swift in Sources */,
+				E7F81E2626EDE77900852F9C /* CloseItObjectTable.swift in Sources */,
+				E7EA6823276BF98C00E216F1 /* CloseItColor.swift in Sources */,
+				E702EE472766775A001CABDB /* CloseItUserListRowView.swift in Sources */,
+				E7F81E2426EDE72400852F9C /* CloseItObjectArray.swift in Sources */,
+				E74000772C21F4460070FCCC /* CloseItPlayer.swift in Sources */,
+				E7F81E3026EDE8F200852F9C /* CloseItAction.swift in Sources */,
+				E7E7F97428DF94E50098DB96 /* CloaeItSystemView.swift in Sources */,
+				E7E7F96228D775920098DB96 /* CloseItAdminInfoView.swift in Sources */,
+				E7DF98962C7DD4080030655D /* CloseItDataConfig.swift in Sources */,
+				E702EE2C274D7DB4001CABDB /* CloseItGamesView.swift in Sources */,
 				E7F81DF026EDDCC000852F9C /* CloseItApp.swift in Sources */,
+				E702EE3D275B8A75001CABDB /* CloseItDataUser.swift in Sources */,
+				E7B4D31B2C31662C004EDD79 /* CloseItActionReview.swift in Sources */,
+				E7B4D3102C2D91E9004EDD79 /* CloseItAchievement.swift in Sources */,
+				E7F81E3426EDE96D00852F9C /* CloseItActionSelect.swift in Sources */,
+				E702EE4327665C2E001CABDB /* CloseItUserListView.swift in Sources */,
+				E73B06F42C3F243D00B2B897 /* CloseItLevel.swift in Sources */,
+				E7B4B2622C4FCFD200A75DFC /* CloseItDemo.swift in Sources */,
+				E7D28C962C1B12EB002DA190 /* CloseItDataIncident.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +763,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F81E0226EDDCC100852F9C /* CloseItTests.swift in Sources */,
+				E7F5F3742C74B36700616C45 /* CloseItGamesGroup_Test.swift in Sources */,
+				E7E7F97828E0773B0098DB96 /* CloseItObject_Test.swift in Sources */,
+				E7DF98922C7C98980030655D /* CloseItDataFeature_Test.swift in Sources */,
+				E7F5F3762C75FD1A00616C45 /* CloseIt_Test.swift in Sources */,
+				E7D28C982C1B5B9E002DA190 /* CloseItScore_Test.swift in Sources */,
+				E76AF08D2C5B8CEF005F687A /* CloseItControl_Test.swift in Sources */,
+				E73B06FE2C46EB9100B2B897 /* CloseItData_Text.swift in Sources */,
+				E76AF08B2C5AAD9A005F687A /* CloseItAchievements_Test.swift in Sources */,
+				E76AF0892C5A9BA7005F687A /* CloseItAchievement_Test.swift in Sources */,
+				E7E7F97A28E0D3F40098DB96 /* CloseItGame_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +798,18 @@
 			targetProxy = E7F81E0926EDDCC100852F9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E73B06EE2C3E8DCB00B2B897 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73B06EF2C3E8DCB00B2B897 /* en */,
+				E73B06F22C3E8EDA00B2B897 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E7F81E0F26EDDCC100852F9C /* Debug */ = {
@@ -333,6 +849,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -347,7 +864,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -394,6 +911,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -402,7 +920,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,16 +935,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloseIt/CloseIt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CloseIt/Preview Content\"";
 				DEVELOPMENT_TEAM = D9LD2AFNJ7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CloseIt/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = v0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "hans-peter.lichtin.CloseIt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -439,16 +960,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloseIt/CloseItRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CloseIt/Preview Content\"";
 				DEVELOPMENT_TEAM = D9LD2AFNJ7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CloseIt/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = v0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "hans-peter.lichtin.CloseIt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -461,10 +985,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9LD2AFNJ7;
 				INFOPLIST_FILE = CloseItTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +997,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hans-peter.lichtin.CloseItTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloseItTests/CloseItTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloseIt.app/CloseIt";
@@ -483,10 +1010,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9LD2AFNJ7;
 				INFOPLIST_FILE = CloseItTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,6 +1022,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hans-peter.lichtin.CloseItTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloseItTests/CloseItTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloseIt.app/CloseIt";

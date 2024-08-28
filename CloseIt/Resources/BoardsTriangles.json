@@ -1,0 +1,62 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Triangles",
+        "id": "Triangle7x4",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 9,
+        "sizeY": 6,
+        "cells": "OOOOOO OIOOOO OIIOOO OIIIOO OIIIIO OIIIOO OIIOOO OIOOOO OOOOOO",
+        "target": "*x13x*x*"
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Triangles",
+        "id": "Triangle7x6",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 9,
+        "sizeY": 8,
+        "cells": "OOOOOOOO OIIOOOOO OIIIOOOO OIIIIIOO OIIIIIIO OIIIIIOO OIIIOOOO OIIOOOOO OOOOOOOO",
+        "target": "*x25x*x*"
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Triangles",
+        "id": "Triangle7x8",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 9,
+        "sizeY": 10,
+        "cells": "OOOOOOOOOO OIIOOOOOO OIIIIOOOOO OIIIIIIOOO OIIIIIIIIO OIIIIIIOOO OIIIIOOOOO OIIOOOOOOO OOOOOOOOOO",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Triangles",
+        "id": "Triangle14x8",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 16,
+        "sizeY": 10,
+        "cells": "OOOOOOOOOO OIIOOOOOO OIIOOOOOO OIIIIOOOOO OIIIIOOOOO OIIIIIIOOO OIIIIIIOOO OIIIIIIIIO OIIIIIIIIO OIIIIIIOOO OIIIIIIOOO OIIIIOOOOO OIIIIOOOOO OIIOOOOOOO OIIOOOOOOO OOOOOOOOOO",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Triangles",
+        "id": "Triangle15x14",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 17,
+        "sizeY": 14,
+        "cells": "OOOOOOOOOOOOOO OIIOOOOOOOOOOO OIIIOOOOOOOOOO OIIIIIOOOOOOOO OIIIIIIOOOOOOO OIIIIIIIIOOOOO OIIIIIIIIIOOOO OIIIIIIIIIIIOO OIIIIIIIIIIIIO OIIIIIIIIIIIOO OIIIIIIIIIOOOO OIIIIIIIIOOOOO OIIIIIIOOOOOOO OIIIIIOOOOOOOO OIIIOOOOOOOOOO OIIOOOOOOOOOOO OOOOOOOOOOOOOO",
+        "target": "*x99x*x*"
+    }
+]

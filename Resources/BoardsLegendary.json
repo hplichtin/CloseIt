@@ -1,0 +1,26 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Legendary",
+        "id": "Legendary1",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 12,
+        "sizeY": 10,
+        "cells": "OOOOOOOOOO OIIIIIIIIO OIIIIIIIIO OOIOIIOIOO OOIOIIOIOO OIIIIIIIIO OIIIIIIIIO OOIOIIOIOO OOIOIIOIOO OIIIIIIIIO OIIIIIIIIO OOOOOOOOOO",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Legendary",
+        "id": "Legendary2",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 12,
+        "sizeY": 11,
+        "cells": "OOOOOOOOOOO OOIIIIIIIOO OIIIIIIIIIO OIOIOIOIOIO OIOIOIOIOIO OIIIIIIIIIO OIIIIIIIIIO OIOIOIOIOIO OIOIOIOIOIO OIIIIIIIIIO OOIIIIIIIOO  OOOOOOOOOOO",
+        "target": ""
+    }
+]

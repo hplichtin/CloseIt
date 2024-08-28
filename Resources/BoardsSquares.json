@@ -1,0 +1,86 @@
+[
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square2x2",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 2,
+        "sizeY": 2,
+        "cells": "IIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square3x3",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 3,
+        "sizeY": 3,
+        "cells": "IIIIIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square4x4",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 4,
+        "sizeY": 4,
+        "cells": "IIIIIIIIIIIIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square5x5",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 5,
+        "sizeY": 5,
+        "cells": "IIIII IIIII IIIII IIIII IIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square6x6",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 6,
+        "sizeY": 6,
+        "cells": "IIIIII IIIIII IIIIII IIIIII IIIIII IIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square7x7",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 7,
+        "sizeY": 7,
+        "cells": "IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII IIIIIII",
+        "target": ""
+    },
+    {
+        "program": "CloseIt",
+        "type": "board",
+        "version": "v1",
+        "group": "Squares",
+        "id": "Square8x8",
+        "designer": "Hans-Peter Lichtin",
+        "sizeX": 8,
+        "sizeY": 8,
+        "cells": "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+        "target": ""
+    }
+]
